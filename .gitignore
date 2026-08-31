@@ -19,5 +19,8 @@
 # ...but the manuscript figure PDFs are source assets, not build artifacts: keep them
 !manuscript/Graphs/*.pdf
 
+# ...and the editor/referee correspondence PDFs are received documents, not build artifacts: keep them
+!correspondence/*.pdf
+
 # macOS junk
 .DS_Store
