@@ -1,0 +1,169 @@
+%2multibyte Version: 5.50.0.2890 CodePage: 1252
+
+\usepackage{multibib}
+\newcites{APP}{References}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{placeins}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{bbold}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{addlines}
+\usepackage{comment}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage[authoryear]{natbib}
+\usepackage{color}
+\usepackage{chronology}     % Paquete para el timeline
+\usepackage{booktabs}       % Paquete para mejorar el formato de las tablas
+\usepackage{graphicx}       % Paquete para incluir y manipular gráficos
+\usepackage{float} 
+% Paquete para controlar la posición de las figuras y tablas
+\usepackage[justification=centering]{caption}    
+%\usepackage{breakurl}
+\usepackage{rotating}
+\usepackage{ textcomp }
+\usepackage{tikz}
+\usepackage[flushleft]{threeparttable}
+\usepackage{framed}
+\setcounter{MaxMatrixCols}{30}
+\definecolor{parula3}{rgb}{0.2440,    0.4358,    0.9988}
+\usepackage[colorlinks=true,citecolor=parula3,linkcolor=parula3,urlcolor=blue]{hyperref}
+\usepackage{cleveref}
+\usepackage{natbib}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=2.5cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage{booktabs}
+
+
+% Default settings for table and figure captions
+\usepackage{caption}
+\captionsetup[table]{font=small,labelfont=small}
+\captionsetup[figure]{font=small,labelfont=small}
+
+% Float spacing adjustments to reduce blank spaces and distribute figures evenly
+\setlength{\textfloatsep}{6pt plus 2pt minus 2pt}  % Space between text and floats
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}       % Space between consecutive floats
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}      % Space between inline floats and text
+\renewcommand{\floatpagefraction}{0.75}             % Allow 75% of page for floats
+\renewcommand{\topfraction}{0.85}                   % Allow 85% of top for floats
+\renewcommand{\bottomfraction}{0.75}                % Allow 75% of bottom for floats
+\renewcommand{\textfraction}{0.15}                  % Require at least 15% text on page
+\setcounter{topnumber}{3}                           % Max 3 floats at top
+\setcounter{bottomnumber}{2}                        % Max 2 floats at bottom
+\setcounter{totalnumber}{4}                         % Max 4 floats per page
+
+% Reduce paragraph spacing and increase penalties for whitespace
+\setlength{\parskip}{2pt plus 0pt minus 0pt}        % Minimal paragraph skip
+\clubpenalty=9999                                   % Prevent orphaned lines (strong penalty)
+\widowpenalty=9999                                  % Prevent widows (strong penalty)
+\displaywidowpenalty=9999                           % Penalty for display math widows
+\brokenpenalty=9999                                 % Penalty for breaking lines
+
+\newcommand\mythanks[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+\newtheorem{claim}{{\bf \sc Claim}}
+\newtheorem{theorem}{{\bf \sc Theorem}}
+\newtheorem{lemma}{{\bf \sc Lemma}}
+\newtheorem{example}{{\bf \sc Example}}
+\newtheorem{definition}{{\bf \sc Definition}}
+\newtheorem{corollary}{{\bf \sc Corollary}}
+\newtheorem{proposition}{{\bf \sc Proposition}}
+\newtheorem{remark}{{\bf \sc Remark}}
+\def \Re{\mathbb{R}}
+\def \eproof{\hbox{\hskip3pt\vrule width4pt height8pt depth1.5pt}}
+\newenvironment{proof}[1][Proof]{\noindent \textbf{#1.} }{\  \rule{0.5em}{0.5em}}
+
+\renewcommand{\baselinestretch}{1.2}
+\newcommand*{\QEDA}{\hfill\ensuremath{\blacksquare}}%
+
+\newcommand{\xxx}[2][show]{ % Replace "show" with any other word to hide XXX comments.
+\ifthenelse{\equal{#1}{show} }{ \textcolor{purple}{X #2 X}}{}}
+
+\usepackage{soul}
+\usepackage{endnotes}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{calc,decorations.pathmorphing,decorations.text,fixedpointarithmetic}
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
+
+
+\newcommand{\cmark}{\text{\ding{51}}}
+\newcommand{\xmark}{\text{\ding{55}}}
+
+
+%\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+%----------------------------------------------------------------------------------------------------------
+% BIBLIOGRAPHY
+\usepackage[authoryear]{natbib}
+\renewcommand{\cite}{\citet}
+\setcounter{MaxMatrixCols}{10}
+
+%External appendices
+\usepackage{xr-hyper}
+
+\makeatletter
+\newcommand*{\addFileDependency}[1]{% argument=file name and extension
+  \typeout{(#1)}
+  \@addtofilelist{#1}
+  \IfFileExists{#1}{}{\typeout{No file #1.}}
+}
+\makeatother
+
+\newcommand*{\myexternaldocument}[1]{%
+    \externaldocument{#1}%
+    \addFileDependency{#1.tex}%
+    \addFileDependency{#1.aux}%
+}
+
+\myexternaldocument{Appendices}
+
+%Theorems
+%\newtheorem{example}{Example}
+%\newtheorem{assume}{Assumption}
+%\newtheorem{proposition}{Proposition}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{definition}{Definition}
+
+\newcommand{\jr}[1]{\textcolor{blue}{#1}} %Color para revision Profe Jorge
+
+\newcommand{\pa}[1]{\textcolor{violet}{#1}} %Color para revision Patricio
+
+\newcommand{\dc}[1]{\textcolor{red}{#1}} %Color para revision Dante Contreras
+
+\newcommand{\ps}[1]{\textcolor{brown}{#1}} %Color para revision Paulina
+
+
+\setcounter{section}{0}
+\makeindex
+\newcommand{\notindep}{\ensuremath{\perp\!\!\!\!\!\!\diagup\!\!\!\!\!\!\perp}}
+\DeclareMathOperator*{\argmin}{argmin}
+
+
+%----------------------------------------------------------------------------------------------------------
+% HYPER-REFERENCES CONFIGURATION - PDF
+%----------------------------------------------------------------------------------------------------------
+
+\hypersetup{
+colorlinks=true,linkcolor=blue,citecolor=blue, filecolor=magenta, citebordercolor=yellow,
+linkbordercolor = magenta,
+}

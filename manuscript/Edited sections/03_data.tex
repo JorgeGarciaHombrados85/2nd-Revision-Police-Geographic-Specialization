@@ -1,0 +1,41 @@
+﻿\subsection{Data}
+
+We combine administrative and survey data from \emph{Carabineros}, the Undersecretary for Crime Prevention, and the National Institute of Statistics (INE). 
+
+\emph{Carabineros} provided information on \emph{Plan Cuadrante} implementation, which we use to define treatment status across municipalities over time. The National Institute of Statistics granted access to the National Survey on Security and Crime (ENUSC), a repeated cross-section first conducted in 2003 and administered annually between October and December since 2005. The survey covers more than 25,000 households across 101 urban municipalities, collecting information on crime victimization, perceptions, trust in police, and household prevention measures over the previous 12 months.\footnote{The survey is administered to a randomly selected household member who must: a) live in the household, b) be 15 years or older, c) not be a domestic worker, and d) not have any disability preventing survey comprehension.}
+
+Our empirical approach excludes always-treated municipalities \citep{Callaway}. Given ENUSC's first implementation in 2003 and absence in 2004, our main sample includes households from 46 urban municipalities that adopted \emph{Plan Cuadrante} between 2005 and 2012 plus one never-treated municipality.\footnote{This sample excludes municipalities adopting \emph{Plan Cuadrante} in 2013 as they are not covered by ENUSC. Also, there is only one never treated municipality covered by ENUSC.} The treated municipalities in this analytical sample account for approximately 27\% of Chile's population. 
+
+
+The Undersecretary for Crime Prevention provided data on the number of reported crimes (2002--2016) and arrests (2005--2016) for all municipalities. This comprehensive coverage allows us to expand the analytical sample: for reported crime, we include all municipalities adopting \emph{Plan Cuadrante} after 2002 together with never-treated municipalities, for a total of 292 municipalities; for arrests, the corresponding sample includes all post-2005 adopters and never-treated municipalities, for a total of 281 municipalities. The treated municipalities in these analytical samples account for over half of Chile's population.
+
+
+The study period differs across the two data sources, as each covers a different time span and a different set of municipalities. For the ENUSC-based analysis, it is restricted to 2003--2012. The \citet{Callaway} estimator uses not-yet-treated and never-treated municipalities as the comparison group. Since only one municipality in the survey sample is never treated, extending the analysis beyond 2012---the last year in which a municipality surveyed in ENUSC adopts the program---would leave only that single never-treated unit as the comparison group for subsequent periods, making the estimates unreliable. The administrative data, by contrast, cover a large number of never-treated municipalities that can serve as controls throughout the full data period, allowing us to exploit the complete administrative coverage---2002--2016 for reported crime and 2005--2016 for arrests---and to include all municipalities adopting the program from 2003 to 2013, when the last municipality joins \emph{Plan Cuadrante}.
+
+
+Together, the treated municipalities in our two analytical samples represent substantial shares of the Chilean population---approximately 27\% in the ENUSC-based analysis and over half in the administrative data analysis---and are geographically distributed across the country rather than clustered in a single region. Tables \ref{tab:sum_statsA2} and \ref{tab:sum_statsA3} in Online Appendix \ref{sec:appendixA} and Table \ref{tab:comparing_samples} and Figure \ref{fig:pcsp_maps} in Online Appendix \ref{sec:appendixB} provide a detailed characterization of the treated municipalities in each analytical sample relative to the average Chilean municipality.
+
+\subsection{Empirical Strategy}
+
+To estimate \emph{Plan Cuadrante}'s effect on the outcomes of interest, we exploit its staggered adoption across Chilean municipalities between 2003 and 2013. Analyses relying on ENUSC data use variation from 2005-2012 adoptions, while those relying on administrative data use variation from 2003-2013 adoptions.\footnote{As a robustness check, we estimate effects on administrative data outcomes using only municipalities in the
+ENUSC sample. Online Appendix Table \ref{tab:SPD_all_vs_enusc} and Figure \ref{fig:figure02_N47} show that the magnitude of these effects in the restricted sample is larger for reported crime but qualitatively similar
+to the ones we present in Section \ref{results}.}
+
+Treatment exposure is defined at the municipality-year level. ENUSC provides household-level repeated cross-sections with municipality identifiers, enabling household-level analysis for survey data. The administrative police records are available only at the municipality level, requiring aggregated analysis for reported crime and arrests. We estimate the following difference-in-differences specification:
+
+\begin{equation}
+Y_{imt}= \beta_0 + \beta_{1} \mbox{\textit{PC}}_{mt} +  \mu_{m}   +      \mu_{t} +  \varepsilon_{imt}
+\label{eq:main}
+\end{equation}
+
+\noindent where $Y_{imt}$ is the outcome of interest reported by household $i$ from municipality $m$ in year $t$ or observed in administrative data for municipality $m$ in year $t$; $PC_{mt}$ indicates whether municipality $m$ had implemented \emph{Plan Cuadrante} by year $t$; $\mu_m$ and $\mu_t$ are municipality and year fixed effects; and $\varepsilon_{imt}$ is the error term. The parameter $\beta_{1}$ measures the program's effect on police effectiveness.
+
+Given the staggered adoption of the program, standard two-way fixed-effects models could generate negative weights \citep{GoodmanBacon}. We address this concern using \citet{Callaway}'s estimation procedure for staggered treatment adoption with multiple periods. 
+Online Appendix Figure \ref{fig:figureA2_alterestim} shows robustness to alternative estimators, including those developed by \citet{Chaisemartin, Gardner, wooldridge2023simple}, as well as to the canonical two-way fixed effects (TWFE) estimator. The resulting estimates are remarkably similar across the alternative staggered-adoption estimators, except for the canonical TWFE, which shows attenuated effects, arguably driven by the negative weights problem discussed above \citep{GoodmanBacon}. The corresponding event studies, reported in Online Appendix Figures \ref{fig:alterestim_delitos}, \ref{fig:alterestim_inseguridad}, \ref{fig:alterestim_medidas}, and \ref{fig:alterestim_crime}, confirm that pre-adoption trends are flat under each alternative estimator.
+
+Our empirical approach accounts for time-invariant differences between early- and late-adopting municipalities, as well as time-specific shocks that affect municipalities with and without \emph{Plan Cuadrante} similarly. The key identification assumption is that, in the absence of \emph{Plan Cuadrante}, the outcomes of interest would have followed parallel trends. While we cannot
+formally test this assumption, we present dynamic specifications that confirm parallel pre-adoption trends across the municipalities in our sample. 
+
+An additional threat to the causal interpretation of our estimates is potential spillovers, either through crime displacement from treated to control municipalities or through police resource reallocation from control to treated municipalities. We probe this concern directly in Section \ref{sec:spillovers}, where a battery of spillover tests consistently finds no evidence of such effects. Online Appendix \ref{sec:appendixC} presents a variety of additional robustness checks that show that our results are robust to the use of different estimation samples and of different crime perception measures, and reports a placebo exercise that confirms the absence of effects on crimes that we would not expect to respond to \emph{Plan Cuadrante}.
+
+Finally, for statistical inference, we cluster standard errors at the municipality level. Since we work with a relatively small number of large clusters, we compute standard errors using wild bootstrapping \citep{Cameron}.

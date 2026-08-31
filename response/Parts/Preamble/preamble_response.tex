@@ -1,0 +1,132 @@
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\graphicspath{{../manuscript/}{../manuscript/Graphs/}}
+%\usepackage{placeins}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage[font=footnotesize,labelformat=simple]{subcaption}
+\usepackage{threeparttable}
+\usepackage{placeins}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage{ragged2e}
+\usepackage{needspace}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{array,booktabs}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage{soul}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{lmodern}
+\usepackage{titlesec}
+%\usepackage[crop=off]{auto-pst-pdf}
+\newtheorem{prop}{Proposition}
+\usepackage{hyperref}
+\usepackage{changepage}
+%\usepackage{subfigure}
+\usepackage{subcaption}
+%\usepackage[sectionbib]{chapterbib}
+\usepackage[sectionbib]{bibunits}
+%\usepackage{psfrag}
+\defaultbibliographystyle{chicago} 
+\defaultbibliography{../manuscript/Bibliography}
+
+
+
+
+
+\newcommand*{\SuperScriptSameStyle}[1]{%
+  \ensuremath{%
+    \mathchoice
+      {{}^{\displaystyle #1}}%
+      {{}^{\textstyle #1}}%
+      {{}^{\scriptstyle #1}}%
+      {{}^{\scriptscriptstyle #1}}%
+  }%
+}
+
+\newcommand*{\oneS}{\SuperScriptSameStyle{*}}
+\newcommand*{\twoS}{\SuperScriptSameStyle{**}}
+\newcommand*{\threeS}{\SuperScriptSameStyle{{}*}}
+
+\titlespacing{\section}{0pc}{1pc}{1pc}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcommand{\subscript}[2]{$#1 _ #2$}
+\usepackage[margin=1in, footskip=0.25in]{geometry}
+\definecolor{link}{gray}{0.5}
+\definecolor{uchile}{rgb}{0.13,0.13,0.44}
+\definecolor{dred}{rgb}{0.68,0.00,0.00}
+\definecolor{darkgray}{gray}{0.75}
+\definecolor{lgray}{rgb}{0.85,0.85,0.85}
+\definecolor{yaleblue}{rgb}{0.0,0.28,0.57}
+\definecolor{yalegray}{rgb}{0.57,0.57,0.57}
+\definecolor{princeton}{rgb}{1.00,0.56,0.00}
+\definecolor{darkdarkgray}{gray}{0.05}
+\definecolor{parula1}{rgb}{0.2422, 0.1504,0.6603}
+\definecolor{parula2}{rgb}{0.2803,    0.2782,    0.9221}
+\definecolor{parula3}{rgb}{0.2440,    0.4358,    0.9988}
+\definecolor{parula4}{rgb}{0.1540,    0.5902,    0.9218}
+\definecolor{parula5}{rgb}{0.0297,    0.7082,    0.8163}
+\definecolor{parula6}{rgb}{0.1938,    0.7758,    0.6251}
+\definecolor{parula7}{rgb}{0.5044,    0.7993,    0.3480}
+\definecolor{parula8}{rgb}{0.8634,    0.7406,    0.1596}
+\definecolor{parula9}{rgb}{0.9892,    0.8136,    0.1885}
+\definecolor{parula10}{rgb}{0.9769,    0.9839,    0.0805}
+
+\hypersetup{
+     colorlinks   = true,
+     citecolor    = darkdarkgray,
+     citebordercolor =. ,
+     linkcolor   = darkdarkgray,
+     linkbordercolor =. ,
+     urlcolor = darkdarkgray,
+     urlbordercolor =.
+}
+
+\newcommand\mythanks[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+\renewcommand{\thetable}{\Roman{table}}
+\renewcommand{\thefigure}{\Roman{figure}}
+
+
+% For Tables created by estout
+\newcommand{\sym}[1]{#1} % for symbols in Table
+\usepackage{siunitx}
+\sisetup{ detect-mode,
+          group-digits            = false ,
+          input-signs             = ,
+          input-symbols           = ()[]-+* , % specifying \sym here does not work
+          input-open-uncertainty  = ,
+          input-close-uncertainty = ,
+          table-align-text-post   = false
+        }
+
+\def\xxx#1{%
+  \bgroup\uccode`\~\expandafter`\string#1%
+  \uppercase{\egroup\edef~{\noexpand\text\string#1}}%
+  \mathcode\expandafter`\string#1"8000 }
+\def\textsymbols{\xxx[\xxx]\xxx(\xxx)\xxx*}
+
+\renewcommand{\baselinestretch}{1}
+\setlength{\fboxsep}{10pt}
+\setlength{\fboxrule}{5pt}

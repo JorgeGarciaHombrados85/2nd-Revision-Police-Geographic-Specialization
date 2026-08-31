@@ -1,0 +1,48 @@
+\begin{table}[H]
+\centering
+\caption{Predictors of the Increase in Police Resources under \emph{Plan Cuadrante}}
+\label{tab:resourcecorrelates}
+\begin{threeparttable}
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}l cc cc@{}}
+\toprule
+& \multicolumn{2}{c}{Administrative sample} & \multicolumn{2}{c}{ENUSC sample} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+& Police & Patrol & Police & Patrol \\
+Dep.\ var: avg.\ annual increase & officers & vehicles & officers & vehicles \\
+in resources (share of pre-adoption level) & (1) & (2) & (3) & (4) \\
+\midrule
+Reported crime (per 100k pop.) & $-0.203^{**}$ & $-0.199^{**}$ & $-0.319^{*}$ & $0.272^{*}$ \\
+ & (0.099) & (0.097) & (0.182) & (0.137) \\
+Arrests (per 100k pop.) & $0.099$ & $-0.041$ & $0.003$ & $0.297$ \\
+ & (0.136) & (0.129) & (0.186) & (0.223) \\
+Victimization &  &  & $-0.017^{*}$ & $-0.025^{*}$ \\
+ &  &  & (0.010) & (0.013) \\
+Crime perception &  &  & $0.005$ & $0.008$ \\
+ &  &  & (0.017) & (0.014) \\
+Trust in the police &  &  & $0.024$ & $0.027$ \\
+ &  &  & (0.018) & (0.019) \\
+Investment in security measures &  &  & $0.004$ & $-0.003$ \\
+ &  &  & (0.010) & (0.009) \\
+Police officers (per 100k pop.) & $-0.207$ & $0.155$ & $-0.888^{***}$ & $0.571^{***}$ \\
+ & (0.155) & (0.129) & (0.154) & (0.136) \\
+Patrol vehicles (per 100k pop.) & $-0.129$ & $-0.139$ & $0.537^{**}$ & $-0.507^{***}$ \\
+ & (0.129) & (0.126) & (0.212) & (0.169) \\
+Log population & $-0.529^{***}$ & $-0.203^{*}$ & $-0.193$ & $-0.626^{**}$ \\
+ & (0.145) & (0.112) & (0.189) & (0.269) \\
+Poverty rate (2004) & $0.170$ & $0.308^{**}$ & $0.027$ & $-0.017$ \\
+ & (0.113) & (0.126) & (0.108) & (0.108) \\
+\midrule
+Observations & 65 & 65 & 8,781 & 8,781 \\
+R-squared & 0.342 & 0.282 & 0.614 & 0.545 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item \textit{Note:} OLS regressions of the average annual increase in police officers (columns 1 and 3) and patrol vehicles (columns 2 and 4) per 100{,}000 inhabitants, from the year before adoption of \emph{Plan Cuadrante} to 2012. As in panels (a) and (b) of Figure \ref{fig:figure_resources}, the increase is expressed as a share of the resources available the year before adoption. Columns 1--2 use the administrative sample at the municipality level; columns 3--4 use ENUSC survey respondents interviewed before 2007 (survey outcomes at the respondent level, other regressors as pre-2006 municipality aggregates). All variables are standardized. Standard errors clustered by municipality in parentheses.
+\item $^{*}p<0.1$; $^{**}p<0.05$; $^{***}p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

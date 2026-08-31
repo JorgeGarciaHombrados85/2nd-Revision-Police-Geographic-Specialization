@@ -1,0 +1,87 @@
+﻿This section presents the main results of the paper. First, it shows that \emph{Plan Cuadrante} significantly improved crime and crime perception outcomes. Second, it shows that these effects were consistent across municipalities with different population densities and with varying socioeconomic levels. Finally, the section studies which components of the program are driving the effects. 
+
+\subsection{Effects of \emph{Plan Cuadrante} on Crime and Security Perception}
+\label{main_results}
+
+Panels (a) to (d) in Figure \ref{fig:figure02} present estimates of the dynamic effects of \emph{Plan Cuadrante} on victimization, reported crime, crime perception, and investment in household security measures. The blue circles and bars represent pre-adoption estimates and their 95\% confidence intervals. Very few of these pre-treatment coefficients are statistically significant, and the average pre-treatment effects are overall reassuring,\footnote{The p-values for the test that the average pre-treatment effect equals zero are 0.833 for victimization, 0.204 for reported crime, 0.178 for security perception, and 0.066 for the adoption of security measures.} suggesting that the outcomes that we study followed parallel trends before the program's introduction.%The p-values for the \emph{joint} significance test of the pre-treatment coefficients are, respectively, 0.101, 0.049, 0.076, and 0.109. The only marginal case is the joint test for reported crime, where the pre-treatment coefficients are slightly positive and therefore conservative with respect to the negative effect we estimate.0.159 for arrests, 0.300 for trust in police 
+ 
+
+\FloatBarrier
+\input{../manuscript/Figures/figure02_results.tex}
+\FloatBarrier
+
+The red circles and bars represent post-adoption estimates and illustrate the program's effects.\footnote{The analyses we present in this section come from an unbalanced panel of municipalities. Thus, each lead and lag is identified using a different subset of municipalities. Online Appendix Figure \ref{fig:figureA6_bp} replicates these analyses using only municipalities that implemented \emph{Plan Cuadrante} between 2006 and 2009, allowing us to build a balanced panel between t-2 and t+3. The estimates remain remarkably similar.}
+
+Panel (a) shows that after adopting \emph{Plan Cuadrante}, there was a significant drop in the share of households reporting crimes in the previous 12 months. This decline in victimization begins in the adoption year and continues over time, falling by ten percentage points (36\%) on average. Consistently, panel (b) shows a substantial decrease in reported crimes. Expressed per hundred thousand inhabitants to normalize across municipality sizes, we find an average reduction of 208 reported crimes (10\%) following the adoption of the program.\footnote{Table \ref{tab:bonferroni} in Online Appendix \ref{sec:appendixC} applies the Bonferroni correction across the main outcome estimates and confirms that these results are not a product of multiple hypothesis testing.}\footnote{For symmetry with the ENUSC-based analysis, this event study is restricted to 5 pre-treatment and 7 post-treatment periods. Since the administrative data cover a much larger number of never-treated municipalities than the ENUSC sample, we can estimate this effect over a longer window of pre-treatment and post-treatment periods; Online Appendix Figure \ref{fig:admin_uncapped} reports the results for reported crime and arrests using the full set of post-treatment and pre-treatment periods, which are very similar to those presented here.}\footnote{Online Appendix Figure \ref{fig:figureA9} reports a placebo exercise confirming the absence of effects on crimes that we would not expect to respond to \emph{Plan Cuadrante}.} Note, however, that analyses based on reported cases may underestimate the reform's true impact since not all crimes are reported to the police.\footnote{Online Appendix Figure \ref{fig:figureA8} replicates the analyses in panels (a) and (b) by crime type, showing significant reductions in both property and violent crimes. While the definitions of crime categories differ across survey and administrative data, the program's effects are consistent in magnitude and statistical significance for violent theft, assault, and home burglary in both datasets.}
+%, and improved trust in police could increase reporting rates, making any observed reductions in reported crime a conservative estimate of the actual crime decline.
+%Panel (c) shows that despite the decrease in victimization and reported crime, arrests per hundred thousand inhabitants increased following the adoption of \emph{Plan Cuadrante}. This simultaneous decrease in crimes and increase in arrests suggests improved police effectiveness.
+
+The results above show that \emph{Plan Cuadrante} reduced both victimization and reported crime. But did this change in public safety translate into increased security perception? Panel (c) reveals that \emph{Plan Cuadrante} decreased insecurity perception, with households reporting increased neighborhood crime dropping by 15 percentage points (36\%).\footnote{Online Appendix Figure \ref{fig:figureA3} reports similar declines in insecurity perception measured at the municipality and country levels.} In line with this result, panel (d) shows that following the program implementation, households adopting protective measures---such as buying dogs or weapons, installing alarms or fences, and purchasing insurance or private security---decreased by eight percentage points (37\%).\footnote{Online Appendix Table \ref{tab:hhprotectionmeasurestype} disaggregates this analysis by measure type.}
+%Panel (d) shows that households reporting high or very high trust in police increased by 12 percentage points (30\%) in adopting municipalities. 
+
+In sum, \emph{Plan Cuadrante} reduced both criminal activity and security perception, while also decreasing private investment in security measures.\footnote{These results are robust to excluding municipalities most affected by the 2010 Maule earthquake, defined as those with a Modified Mercalli Intensity greater than 7; see Figure \ref{fig:figure02_noEQ} in Online Appendix \ref{sec:appendixC} for details.}
+
+%To benchmark the scale of these effects in more intuitive terms, we translate the estimated decline in victimization into the number of victims avoided. Using the average annual cost of the program per municipality---US\$3.47 million \citep{DIPRES2007_largo, DIPRES2014}---and the 2017 Census total population across the 150 municipalities that adopted \emph{Plan Cuadrante}---15,424,263 inhabitants \citep{INE2017_censo}---the implied cost per victim avoided is about US\$338. Because beat policing is essentially a reorganization of police deployment, municipalities or police departments that are already well staffed and equipped would face substantially lower implementation costs. Overall, the cost of \emph{Plan Cuadrante} compares favorably with the substantial social and economic costs that crime imposes on households and communities in Latin America \citep{jaitman2017costs}.
+
+
+%each percentage-point increase in trust in the police costs approximately US\$289,000, and  and each additional arrest per 100,000 inhabitants approximately US\$72,000
+
+\subsection{\emph{Plan Cuadrante} and Spatial Spillovers}
+\label{sec:spillovers}
+\input{Edited sections/04_02_spillovers.tex}
+
+\subsection{Heterogeneous Effects of \emph{Plan Cuadrante} by Municipality and Households Characteristics}
+\label{heterogeneity}
+
+This section examines whether \emph{Plan Cuadrante}'s effects vary by population density, municipal poverty rates, and household socioeconomic status.\footnote{Data on population density and municipal poverty rates are available at \url{https://www.sinim.gov.cl/}} These analyses inform both external validity and distributional effects of the program. Figure \ref{fig:figure04_het} summarizes these results. We compare municipalities with low versus high population density, municipalities with low versus high poverty rates, and households with low versus high socioeconomic status by splitting the sample in two and estimating specification (\ref{eq:main}) independently in each subsample. For each split, we study four outcomes: victimization, reported crime, crime perception, and investment in security measures. Panels (a) and (b) plot victimization, crime perception, and investment in security measures---from the National Survey on Security and Crime (ENUSC)---on the left axis, and reported crime---from the administrative data of the Undersecretary for Crime Prevention---on the right axis. Because socioeconomic status is only observed in the ENUSC, panel (c) reports the three survey-based outcomes only. Blue and red bars represent $\beta_1$ estimates from different subsamples.
+
+\FloatBarrier
+\input{../manuscript/Figures/figure04_heterogeneity.tex}
+\FloatBarrier
+
+While \emph{Plan Cuadrante} was implemented only in urban municipalities, these areas vary substantially in size and structure. Yet panel (a) shows similar effects across population densities. Blue bars illustrate effects in high-density municipalities---top 40\% of density distribution---and red bars in low-density municipalities---bottom 40\%.\footnote{Average density: 458 inhabitants per square kilometer in high-density municipalities versus 29 in low-density municipalities.}
+
+Panel (b) presents the results of a similar exercise comparing municipalities with different poverty rates. As in the case of population density, effects of \emph{Plan Cuadrante} seem to be similar across municipalities with high- and low-poverty rates. Blue bars show effects in high-poverty municipalities---top 40\% of poverty rate distribution---and red bars in low-poverty municipalities---bottom 40\%.\footnote{Average poverty rate: 28\% in high-poverty municipalities versus 14\% in low-poverty municipalities.}
+
+Finally, panel (c) indicates that effects on victimization and security perception do not vary across household socioeconomic status (SES), based on ENUSC's household self-reported classification.\footnote{SES classification: Low-SES includes lower-class and lower-middle-class households; high-SES includes upper-middle and upper-class households.} Blue bars represent high-SES households, red bars low-SES households.
+
+These results indicate that the beat policing model induced by \emph{Plan Cuadrante} benefited municipalities and households similarly, regardless of population density or socioeconomic status.
+
+%% DANI, las figuras de heterogeneidad tienen que enfocarse exclusivamente en los outcomes de victimización, reported crime, percepción de inseguriad y adopción de medidas de seguridad. No hemos introducido los resultados de confianza en la policía y arrestos aún, por lo que sería raro que aparezcan acá.
+
+\subsection{What Is Driving the Effects of \emph{Plan Cuadrante}?}%
+\label{mechanisms}
+\input{Edited sections/04_04_drivers.tex}
+
+% Dani, necesitamos crear dos figuras nuevas combinando parte de los resultados que ya tenemos. 
+
+%% Figure 4: \emph{Plan Cuadrante} and Changes in Police Presence and Resources 
+% Panel (a) - Differences in perceptions of police between early and late adopters: 
+% Variables to include: 
+% Very good/good performance of the police; police is efficient; police is helpful; police provides useful information; police is corrupt; police fails to control crime, police fails to do its job well. Please check well the questions in the survey and define labels with a structure as: "Reports ... " "Perceives ...".
+% y-axis: Share of households
+% x-axis: Label of the question 
+
+% Panel (b) -  Effect in police presence 
+% Bars with diff-in-diff estimates of "Perceived increase in police presence", "Reports seeing police passing by their house daily", "Reports never seeing police passing by their house", "Complaints about lack of police presence"
+% y-axis: Share of households 
+% x-axis: Periods to treatment
+
+% Panel (c) - Effect in the number of Police Officers
+% y-axis: Police officers per 100k inhabitants
+% x-axis: Periods to treatment
+
+% Panel (d) - Effect in the number of Police Patrols
+% y-axis: Police patrols per 100k inhabitants
+% x-axis: Periods to treatment
+
+
+%% Figure 5: Police Resources and Police Effectiveness
+
+% Panel (a) Distribution of Delta in Police Officers
+% Panel (b) Distribution of Delta in Police Patrols 
+% Panel (c) Effects by the Intensity of Delta in Police Officers (add bars on "Complaints about lack of police officers")
+% Panel (d) Effects by the Intensity of Delta in Police Officers (add bars on "Complaints about lack of police officers")
+% Panel (e) Summarize figure A6 in a single panel. One bar per outcome summarizing diff-in-diff estimate. 
+% Panel (f) Summarize figure A5 in a single panel. Put ENUSC and admin data together using two y-axis. Combine results for delta officers and delta patrols using different colors for each of them. 
+

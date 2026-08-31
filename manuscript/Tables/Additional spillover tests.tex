@@ -1,0 +1,61 @@
+\begin{table}[H]\centering
+\caption{Robustness of the main estimates to spillover contamination of the control group}
+\label{tab:test5_alternative}
+\small
+\begin{tabular}{l*{5}{c}}
+\toprule
+ & (1) & (2) & (3) & (4) & (5) \\
+ & Baseline & Never-tr. & Drop & High & Low \\
+ &  & only & contam. & exposure & exposure \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel A. Reported crime (per 100,000 pop.)}} \\
+ATT & -208.02*** & -211.63*** & -159.97** & -264.20*** & -176.36** \\
+  & (56.13) & (55.76) & (64.60) & (79.45) & (82.08) \\
+Observations & 4,231 & 4,231 & 1,879 & 3,345 & 3,486 \\
+N municipalities & 292 & 292 & 135 & 227 & 236 \\\\
+Treated municipalities & 96 & 96 & 96 & 31 & 40 \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel B. Arrests (per 100,000 pop.)}} \\
+ATT & 48.02*** & 49.34*** & 33.15* & 55.57** & 33.19 \\
+  & (16.27) & (16.08) & (19.87) & (24.04) & (26.97) \\
+Observations & 3,293 & 3,293 & 1,409 & 2,644 & 2,772 \\
+N municipalities & 281 & 281 & 124 & 223 & 234 \\\\
+Treated municipalities & 85 & 85 & 85 & 27 & 38 \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel C. Victimization}} \\
+ATT & -0.099*** & -- & -0.097*** & -0.080*** & -- \\
+  & (0.013) &  & (0.015) & (0.017) &  \\
+Observations & 93,041 & -- & 83,062 & 7,952 & -- \\
+N municipalities & 47 & -- & 42 & 6 & -- \\\\
+Treated municipalities & 46 & -- & 41 & 5 & -- \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel D. Trust in the police}} \\
+ATT & 0.111*** & -- & 0.105*** & 0.155*** & -- \\
+  & (0.019) &  & (0.020) & (0.024) &  \\
+Observations & 45,679 & -- & 40,917 & 4,302 & -- \\
+N municipalities & 47 & -- & 42 & 6 & -- \\\\
+Treated municipalities & 46 & -- & 41 & 5 & -- \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel E. Crime perception (neighborhood)}} \\
+ATT & -0.149*** & -- & -0.152*** & 0.038 & -- \\
+  & (0.025) &  & (0.027) & (0.056) &  \\
+Observations & 89,578 & -- & 79,926 & 7,712 & -- \\
+N municipalities & 47 & -- & 42 & 6 & -- \\\\
+Treated municipalities & 46 & -- & 41 & 5 & -- \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel F. Private investment in security}} \\
+ATT & -0.077*** & -- & -0.079*** & 0.010 & -- \\
+  & (0.016) &  & (0.017) & (0.033) &  \\
+Observations & 93,041 & -- & 83,062 & 7,952 & -- \\
+N municipalities & 47 & -- & 42 & 6 & -- \\\\
+Treated municipalities & 46 & -- & 41 & 5 & -- \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{\textwidth}\footnotesize\vspace{4pt}
+\textit{Notes:} Column (1) is the main specification reported in Figure 2. 
+Column (2) uses never-treated controls only and is reported for the administrative outcomes; the ENUSC sample has a single never-treated municipality (Los Vilos), so it is not estimated there. 
+Column (3) drops likely-contaminated units: for reported crime and arrests, the never-PC controls bordering a PC municipality; for the ENUSC outcomes, the municipalities with later-treated neighbours. 
+Columns (4)/(5) re-estimate the effects on high- vs low-exposure treated municipalities against the same never-treated controls: for the administrative outcomes, the top-two vs.\ bottom-two quintiles of the share of never-treated neighbours, with quintiles formed over the treated municipalities in each outcome's estimation sample; for ENUSC, the municipalities with a later-treated PC neighbour vs.\ the rest. Stable estimates across (4) and (5) indicate the effect is not driven by exposure to never-treated neighbours. 
+Stars: * p$<$0.10, ** p$<$0.05, *** p$<$0.01.
+\end{minipage}
+\end{table}

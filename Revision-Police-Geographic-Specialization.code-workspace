@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Revision-Police-Geographic-Specialization",
+			"path": "."
+		}
+	],
+	"settings": {
+		"claudeCode.allowDangerouslySkipPermissions": true,
+		"claudeCode.preferredLocation": "panel"
+	}
+}

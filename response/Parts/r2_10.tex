@@ -1,0 +1,35 @@
+%4.	Given the large number of related outcomes (e.g., Figure 2), the authors may want to consider adjustments for multiple hypothesis testing.
+
+
+We thank the reviewer for this suggestion.
+
+We acknowledge that testing multiple outcomes simultaneously raises concerns about false discoveries. We note, however, that all six outcomes in our main analysis---including the four now presented in Figure 2 and the arrests and trust-in-police outcomes moved to the mechanisms section in the revised manuscript---are statistically significant at the 1\% significance level. Under the null hypothesis of no effects, one would expect at most 1\% of tested coefficients to be false positives by chance at the same level. The observed pattern of results is therefore difficult to reconcile with false discoveries driven by multiple testing. Nonetheless, to address this concern formally, we apply a multiple hypothesis testing correction to the p-values. While procedures such as \citet{romano2005} would be the natural choice, their implementation is not computationally straightforward with the \citet{Callaway} estimator. We therefore apply the Bonferroni correction, which can be applied directly to any set of estimated p-values regardless of the underlying estimator. The adjusted p-values, reported in Table \ref{tab:bonferroni}, confirm that the main results remain statistically significant after correction for every outcome considered. 
+
+In the revised manuscript, we have added the following footnote in Section 4.1: 
+
+
+\begin{adjustwidth}{2em}{0em}
+Table \ref{tab:bonferroni} in Online Appendix \ref{sec:appendixC} applies the Bonferroni correction across the main outcome estimates and confirms that these results are not a product of multiple hypothesis testing.
+\end{adjustwidth}
+
+We also add the following subsection, ``Multiple Hypothesis Testing,'' to Online Appendix C reporting this exercise in detail:
+
+\begin{adjustwidth}{2em}{0em}
+Testing multiple outcomes simultaneously raises concerns about false discoveries. In our analyses, all six outcomes in our main analyses are statistically significant at the 1\% significance level. Under the null hypothesis of no effects, one would expect at most 1\% of tested coefficients to be false positives by chance at the same level. The observed pattern of results is therefore difficult to reconcile with false discoveries driven by multiple testing. Nonetheless, to address this concern formally, we apply a multiple hypothesis testing correction to the p-values. While procedures such as \citet{romano2005} would be a natural choice, their implementation is not computationally straightforward with the \citet{Callaway} estimator. We therefore apply the Bonferroni correction, which can be applied directly to any set of estimated p-values regardless of the underlying estimator. The adjusted p-values, reported in Table \ref{tab:bonferroni}, confirm that the main results remain statistically significant at conventional confidence levels after correction for every outcome considered.
+\end{adjustwidth}
+
+\clearpage
+\noindent\textbf{Other figure and table referenced above:}
+\vspace{0.5em}
+
+{\setcounter{figure}{1}\renewcommand{\thefigure}{\arabic{figure}}
+\input{../manuscript/Figures/figure02_results.tex}}
+
+\clearpage
+
+{\renewcommand{\thetable}{C.2}
+\input{../manuscript/Tables/Bonferroni.tex}}
+
+\clearpage
+
+

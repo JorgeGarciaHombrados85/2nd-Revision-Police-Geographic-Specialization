@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"Edited sections\")",
+      "Bash(ls Tables)",
+      "Bash(ls Figures)",
+      "Bash(ls -la 00_main.pdf)",
+      "Bash(ls ../response/Parts)"
+    ]
+  }
+}

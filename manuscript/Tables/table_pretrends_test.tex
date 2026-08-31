@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Test for differential pre-trends by resource-increase group}
+\label{tab:pretrends_test}
+\begin{threeparttable}
+\begin{tabular}{l c c}
+\toprule
+ & \multicolumn{2}{c}{Joint pre-trend test (\textit{p}-value)} \\
+\cmidrule(lr){2-3}
+ & Officers split & Patrol vehicles split \\
+\midrule
+\multicolumn{3}{@{}l}{\textit{Panel A. Outcomes}} \\
+\quad Victimization & 0.823 & 0.048 \\
+\quad Crime perception & 0.059 & 0.379 \\
+\quad Investment in security measures & 0.820 & 0.157 \\
+\quad Reported crime & 0.213 & 0.419 \\
+\addlinespace
+\multicolumn{3}{@{}l}{\textit{Panel B. Police resources}} \\
+\quad Police officers & 0.616 & 0.444 \\
+\quad Patrol vehicles & 0.405 & 0.157 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Note: Each cell reports the \textit{p}-value of a joint \textit{F}-test that the high- and low-increase municipalities followed common pre-treatment trends. For each row we estimate, on the treated municipalities and pre-treatment observations only, an OLS event-study regression with comuna and year fixed effects, event-time indicators over event time -5 to -1 (reference -1), and their interactions with an indicator for the top-40\% resource increase (versus the bottom-40\%; the middle quintile is excluded); the reported test is the joint significance of the four interaction terms. Standard errors are clustered by comuna. The Officers and Patrol vehicles splits define the high/low groups by the increase in each resource, matching Figure~\ref{fig:figure_resources} panels (c) and (d). A \textit{p}-value above 0.05 indicates no differential pre-trend.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

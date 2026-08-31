@@ -1,0 +1,48 @@
+Thank you for this comment. We agree with you and the referees that spatial spillovers could be a concern in our setting. Although the original manuscript already included a brief spillover check, we appreciate Reviewer 2's suggestion to expand this analysis and provide much stronger reassurance that spillovers do not bias our estimates. We have therefore added a new subsection in the main text and a new appendix with detailed discussion of each exercise. Taken together, the new evidence shows that \emph{Plan Cuadrante} did not displace crime to neighboring municipalities or divert police resources from control to treated areas. We discuss the four exercises below and provide the new manuscript sections.
+
+The first exercise relies on administrative data on reported crime, arrests, and police resources. Since these records are available for all municipalities in the country, we can study what happened around all the municipalities that adopted \emph{Plan Cuadrante} in the period we analyze. Building on our main specification but defining the outcome at the neighboring municipality level, we show that the adoption of \emph{Plan Cuadrante} neither displaced crime from treated to nearby control municipalities nor diverted resources from control to treated areas, both of which would lead us to overestimate the program's effects. These results hold both in the universe of municipalities observed in the administrative records and in the ENUSC subsample in which we study victimization, crime perception, and household investment in security measures.
+
+Second, following the suggestions of Reviewer 2, we implemented variations of the methods developed in \citet{crepon2013} and \citet{Blattman}. In the spirit of \citet{crepon2013}, we estimate the effect of a higher share of neighboring municipalities adopting \emph{Plan Cuadrante} on crime, arrests, and resources in control municipalities, finding no significant effects on any of these outcomes. Next, following \citet{Blattman}, we conduct a randomization inference exercise in which treatment status and adoption dates are randomly assigned 1,000 times, constructing placebo distributions of treatment and spillover effects. The true treatment effect on crime falls in the bottom 1\% of the placebo distribution, while the estimated spillover effects fall within the 40th--45th percentile of the placebo distribution, providing no evidence of meaningful spillovers on crime, arrests, or resources onto neighboring untreated municipalities.
+
+The exercises described in the previous paragraph rely on administrative records from the police, which are available for all municipalities adopting \emph{Plan Cuadrante} in the period we study and for all of their neighboring municipalities. This broad coverage allows us to estimate spillovers credibly using the full set of administrative outcomes. By contrast, outcomes measured in ENUSC are observed for only 46 adopting municipalities and 1 never-treated municipality. This makes spillover analyses more challenging, because coverage of neighboring municipalities is limited: only 10 of these municipalities share a border with another municipality surveyed in ENUSC, and only 6 share a border with either a never-treated municipality or a treated municipality that adopted the program in a different year. Given this limited coverage, the \citet{crepon2013} and \citet{Blattman} exercises are implemented only on the administrative outcomes, for which coverage of neighboring municipalities is sufficient. For the outcomes measured only in ENUSC, we instead estimate the spillover effects of early-adopting ENUSC municipalities on their late-adopting ENUSC neighbors before the latter's own adoption, and once again find no evidence of spatial spillovers.
+
+Below, we provide the sections we added to the updated manuscript:
+
+\textbf{Spatial Spillovers Section:} the new section on spatial spillovers reads as follows:\\
+\textbf{4.2 \emph{Plan Cuadrante} and Spatial Spillovers}
+\\[12pt]
+\begin{adjustwidth}{2em}{0em}
+\input{../manuscript/Edited sections/04_02_spillovers.tex}
+\end{adjustwidth}
+
+\textbf{Spatial Spillovers Appendix:} the new Online Appendix C.9. reads as follows:\\
+\textbf{C.9 Testing for Spatial Spillovers}
+\\[12pt]
+\begin{adjustwidth}{2em}{0em}
+\input{../manuscript/Edited sections/C6_spillover_effects.tex}
+\end{adjustwidth}
+
+\clearpage
+\noindent\textbf{Other figures and tables referenced above:}
+\vspace{0.5em}
+
+{\renewcommand{\thefigure}{C.12}
+\input{../manuscript/Figures/figure03_spillovers.tex}}
+
+\clearpage
+
+{\setcounter{figure}{12}\renewcommand{\thefigure}{C.\arabic{figure}}
+\input{../manuscript/Figures/Spillovers with treatment intensity.tex}}
+
+\clearpage
+
+{\renewcommand{\thefigure}{C.15}
+\input{../manuscript/Figures/Permutations Analysis.tex}}
+
+\clearpage
+
+{\setcounter{figure}{15}\renewcommand{\thefigure}{C.\arabic{figure}}
+\input{../manuscript/Figures/Spillovers with ENUSC sample.tex}}
+
+\clearpage
+

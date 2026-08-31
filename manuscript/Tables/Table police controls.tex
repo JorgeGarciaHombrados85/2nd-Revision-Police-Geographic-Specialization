@@ -1,0 +1,50 @@
+\begin{table}[H]
+\centering
+\caption{Effects controlling for the increase in police resources}
+\label{tab:results_controlbyresources}
+\begin{threeparttable}
+\begin{tabular}{l c c c}
+\toprule
+& (1) & (2) & (3) \\
+\midrule
+\multicolumn{4}{l}{\textit{Panel A. Survey outcomes (ENUSC)}} \\[0.3em]
+Victimization &       -0.099*** &       -0.077*** &       -0.061 \\
+& (0.013) & (0.014) & (0.054) \\
+& [93,041] & [53,973] & [53,553] \\[0.4em]
+Trust in the police &        0.111*** &        0.089*** &        0.108* \\
+& (0.019) & (0.026) & (0.057) \\
+& [45,679] & [18,582] & [18,582] \\[0.4em]
+Crime perception &       -0.149*** &       -0.140*** &       -0.056 \\
+& (0.025) & (0.032) & (0.060) \\
+& [89,578] & [52,160] & [51,746] \\[0.4em]
+Private investment in security &       -0.077*** &       -0.066*** &       -0.096** \\
+& (0.016) & (0.019) & (0.044) \\
+& [93,041] & [53,973] & [53,553] \\[0.4em]
+\midrule
+\multicolumn{4}{l}{\textit{Panel B. Administrative outcomes (SPD)}} \\[0.3em]
+Reported crime &     -208.024*** &     -178.357*** &     -384.216** \\
+& (      56.130) & (      63.188) & (     184.868) \\
+& [ 4,231] & [ 2,184] & [ 2,184] \\[0.4em]
+Arrests &       48.024*** &       31.003** &       43.395 \\
+& (      16.270) & (      14.089) & (      79.542) \\
+& [ 3,293] & [ 2,184] & [ 2,184] \\[0.4em]
+\midrule
+Sample           & Full & Resources years & Resources years \\
+Officers control &      &                 & \checkmark \\
+Vehicles control &      &                 & \checkmark \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\item \footnotesize{Note: This table reports the main results of the paper controlling
+for police resources, specifically the number of police officers and patrol
+vehicles per 100,000 inhabitants. Column (1) replicates the estimates from
+Figure 2. Column (2) restricts the analytical sample to years for which police
+resource data is available (post-2005) but includes no controls, serving as a
+benchmark for Column (3). Column (3) reports the estimates controlling for both
+the number of police officers and patrol vehicles simultaneously. The estimation is conducted using the procedure developed in \citet{Callaway}
+for difference-in-differences with staggered treatment adoption. Standard errors
+are clustered at the municipality level using the wild bootstrapping procedure.} \\
+\item \footnotesize{$^{*}p<0.1$, $^{**}p<0.05$, $^{***}p<0.01$.}
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

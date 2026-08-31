@@ -1,0 +1,81 @@
+%Minor points
+
+%Sample selection: I understand the final sample selection is driven by data availability, but sometimes I was confused by when the policy started and what years are covered by each data source. For example, survey data appear to be available from 2003, and administrative crime records also start in 2003 and run until 2018. Why, then, does the analysis stop in 2012? If this is due to survey availability, that should be made explicit, while the administrative data could still be shown descriptively for the later years. In addition, what distinguishes the municipalities included in the analysis from those excluded? How do early adopters compare to late adopters? For both the survey data and the police records, it would be useful to provide a comparison of characteristics between included and excluded municipalities to give readers confidence that the results are not being driven by sample selection.
+
+
+Thank you very much for the opportunity to clarify this point. This is related to the availability of data by year and municipality across our two main data sources, and to how the \citet{Callaway} estimator is constructed. When the control group is formed from not-yet-treated units, the estimator only uses data up to the year in which the last treated unit in the data adopts the treatment.
+
+Most outcomes in the paper rely on information from the ENUSC survey, which covers 101 urban municipalities. All of these municipalities were eventually treated except one. Because ENUSC was first conducted in 2003 and not administered in 2004, our main analytical sample includes the 46 urban municipalities that adopted \emph{Plan Cuadrante} between 2005 and 2012---the year in which the last municipality surveyed in ENUSC adopted the program---plus the one never-treated municipality. Even if the ENUSC survey were available after 2012, using these data in the estimation would mean relying only on this single never-treated municipality as the control group for all subsequent periods, which would make the estimates unreliable. We therefore limit the study period in the main analysis to 2003--2012.
+
+
+Regarding the outcomes constructed from administrative records: these are provided by the Undersecretary for Crime Prevention and are available yearly for all Chilean municipalities---reported crimes from 2002 to 2016, and arrests from 2005 to 2016. This comprehensive coverage results in a much larger number of never-treated units, allowing for a longer estimation period that includes all the data period and municipalities adopting the program up to 2013, when the last Chilean municipality joined \emph{Plan Cuadrante}. In total, we use an analytical sample of 292 municipalities for reported crime and 281 for arrests. For simplicity and symmetry with the ENUSC-based analysis, our main specification nonetheless restricts the event study to 5 pre-treatment and 7 post-treatment periods. We show in Figure \ref{fig:admin_uncapped} in the updated manuscript that the results are very similar when the full set of pre- and post-adoption periods is used instead.
+
+Below we reproduce the relevant paragraphs from the Data subsection of the updated manuscript:
+
+\begin{adjustwidth}{2em}{0em}
+We combine administrative and survey data from \emph{Carabineros}, the Undersecretary for Crime Prevention, and the National Institute of Statistics (INE).
+
+\emph{Carabineros} provided information on \emph{Plan Cuadrante} implementation, which we use to define treatment status across municipalities over time. The National Institute of Statistics granted access to the National Survey on Security and Crime (ENUSC), a repeated cross-section first conducted in 2003 and administered annually between October and December since 2005. The survey covers more than 25,000 households across 101 urban municipalities, collecting information on crime victimization, perceptions, trust in police, and household prevention measures over the previous 12 months.\footnote{The survey is administered to a randomly selected household member who must: a) live in the household, b) be 15 years or older, c) not be a domestic worker, and d) not have any disability preventing survey comprehension.}
+
+Our empirical approach excludes always-treated municipalities \citep{Callaway}. Given ENUSC's first implementation in 2003 and absence in 2004, our main sample includes households from 46 urban municipalities that adopted \emph{Plan Cuadrante} between 2005 and 2012 plus one never-treated municipality.\footnote{This sample excludes municipalities adopting \emph{Plan Cuadrante} in 2013 as they are not covered by ENUSC. Also, there is only one never treated municipality covered by ENUSC.} The treated municipalities in this analytical sample account for approximately 27\% of Chile's population.
+
+The Undersecretary for Crime Prevention provided data on the number of reported crimes (2002--2016) and arrests (2005--2016) for all municipalities. This comprehensive coverage allows us to expand the analytical sample: for reported crime, we include all municipalities adopting \emph{Plan Cuadrante} after 2002 together with never-treated municipalities, for a total of 292 municipalities; for arrests, the corresponding sample includes all post-2005 adopters and never-treated municipalities, for a total of 281 municipalities. The treated municipalities in these analytical samples account for over half of Chile's population.
+
+The study period differs across the two data sources, as each covers a different time span and a different set of municipalities. For the ENUSC-based analysis, it is restricted to 2003--2012. The \citet{Callaway} estimator uses not-yet-treated and never-treated municipalities as the comparison group. Since only one municipality in the survey sample is never treated, extending the analysis beyond 2012---the last year in which a municipality surveyed in ENUSC adopts the program---would leave only that single never-treated unit as the comparison group for subsequent periods, making the estimates unreliable. The administrative data, by contrast, cover a large number of never-treated municipalities that can serve as controls throughout the full data period, allowing us to exploit the complete administrative coverage---2002--2016 for reported crime and 2005--2016 for arrests---and to include all municipalities adopting the program from 2003 to 2013, when the last municipality joins \emph{Plan Cuadrante}.
+
+Together, the treated municipalities in our two analytical samples represent substantial shares of the Chilean population---approximately 27\% in the ENUSC-based analysis and over half in the administrative data analysis---and are geographically distributed across the country rather than clustered in a single region. Tables \ref{tab:sum_statsA2} and \ref{tab:sum_statsA3} in Online Appendix \ref{sec:appendixA} and Table \ref{tab:comparing_samples} and Figure \ref{fig:pcsp_maps} in Online Appendix \ref{sec:appendixB} provide a detailed characterization of the treated municipalities in each analytical sample relative to the average Chilean municipality.
+\end{adjustwidth}
+
+Note the following footnote to Section 4 in the main manuscript:
+
+\begin{adjustwidth}{2em}{0em}
+Online Appendix Figure \ref{fig:admin_uncapped} reports the results for reported crime and arrests using the full set of post-treatment and pre-treatment periods, which are very similar to those presented here.
+\end{adjustwidth}
+
+and also the following subsection to Online Appendix C, ``Effects of \emph{Plan Cuadrante} Using the Full Set of Post-treatment and Pre-treatment Periods'':
+
+\begin{adjustwidth}{2em}{0em}
+For symmetry with the ENUSC-based analysis, the event studies for reported crime and arrests reported in the main text are restricted to 5 pre-treatment and 7 post-treatment periods. Because the administrative data are available for the full set of Chilean municipalities and therefore include a much larger number of never-treated municipalities than the ENUSC sample, we can estimate these effects over a longer window without exhausting the pool of valid comparison units. Figure \ref{fig:admin_uncapped} reports the effects of \emph{Plan Cuadrante} on reported crime and arrests using the full set of post-treatment and pre-treatment periods rather than capping the event study to the 5 pre-treatment and 7 post-treatment periods used in the main specification. The results are very similar to those presented in Section \ref{main_results}.
+\end{adjustwidth}
+
+
+Finally, we have added the following subsection, ``Characterization of the Analytical Samples,'' to Online Appendix B, comparing the characteristics of the municipalities included in each analytical sample with those excluded from it or always treated:
+
+\begin{adjustwidth}{2em}{0em}
+The treated municipalities in our analytical samples are geographically distributed across the country. As shown in Figure \ref{fig:pcsp_maps}, the 46 treated municipalities in the ENUSC-based sample span Chile from north to south, covering a wide range of geographic and socioeconomic contexts, and together account for approximately 27\% of Chile's population. The 96 treated municipalities in the administrative data sample provide even broader national coverage, together accounting for over half of Chile's population.
+
+Table \ref{tab:comparing_samples} characterizes the treated municipalities in each analytical sample relative to all Chilean municipalities (Column 1), all \emph{Plan Cuadrante} municipalities (Column 2), the always-treated municipalities excluded from our estimation samples (Column 3), and never-treated municipalities (Column 6). Columns (4) and (5) report characteristics for the treated municipalities in the ENUSC and administrative data analytical samples respectively. On several dimensions our samples broadly resemble the overall Chilean population: the poverty rate of the 46 treated municipalities in the ENUSC sample (21.7\%) and the 96 treated municipalities in the administrative data sample (24.0\%) are both close to the national average of 23.7\%, and the crime rates of the treated ENUSC municipalities closely track the average across all \emph{Plan Cuadrante} municipalities (2,202 vs.\ 2,132 per 100,000 inhabitants). They do differ on other dimensions---particularly crime rates relative to all Chilean municipalities and population density---but both differences have natural explanations. Higher crime rates are expected because \emph{Plan Cuadrante} exclusively targeted urban municipalities, where crime is more prevalent. The lower-than-average population density in our samples (215 and 135 inhabitants per km$^2$, vs.\ a national mean of 870) reflects the fact that the most densely populated \emph{Plan Cuadrante} municipalities---those of the Santiago metropolitan area---were the earliest adopters of the program and are therefore excluded from our analytical samples as always-treated.
+\end{adjustwidth}
+
+
+
+
+
+\clearpage
+\noindent\textbf{Other figures and tables referenced above:}
+\vspace{0.5em}
+
+{\renewcommand{\thefigure}{C.8}
+\input{../manuscript/Figures/Admin Results Uncapped.tex}}
+
+\clearpage
+
+{\renewcommand{\thetable}{A.2}
+\input{../manuscript/Tables/table_descriptivetable_ENUSC.tex}}
+
+\clearpage
+
+{\renewcommand{\thetable}{A.3}
+\input{../manuscript/Tables/table_descriptivetable_SPD.tex}}
+
+\clearpage
+
+{\renewcommand{\thefigure}{B.1}
+\input{../manuscript/Figures/Map Plan Cuadrante.tex}}
+
+\clearpage
+
+{\renewcommand{\thetable}{B.1}
+\input{../manuscript/Tables/Table Comparing Samples.tex}}
+
+\clearpage

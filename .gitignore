@@ -1,0 +1,23 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.synctex(busy)
+
+# Compiled PDF output
+*.pdf
+*.gph
+
+# ...but the manuscript figure PDFs are source assets, not build artifacts: keep them
+!manuscript/Graphs/*.pdf
+
+# macOS junk
+.DS_Store

@@ -1,0 +1,72 @@
+\begin{figure}[h!]
+    \centering
+    \caption{Geographic Spillovers of \emph{Plan Cuadrante} by Share of Treated Neighbors}
+    \label{fig:figure_continuous_spillovers}
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf}
+        \caption{Spillovers on Reported Crime}
+    \end{subfigure}%
+    ~
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_arrests.pdf}
+        \caption{Spillovers on Arrests}
+    \end{subfigure}
+
+    \vspace{0.5em}
+
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_dotpc.pdf}
+        \caption{Spillovers on Police Officers}
+    \end{subfigure}%
+    ~
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc.pdf}
+        \caption{Spillovers on Patrol Vehicles}
+    \end{subfigure}
+
+    \begin{minipage}{0.95\textwidth}
+    \footnotesize
+    Notes: This figure reports the geographic spillover effects of \emph{Plan Cuadrante} on four outcomes for never-treated municipalities: reported crime per 100,000 inhabitants (panel a), arrests per 100,000 inhabitants (panel b), the number of police officers per 100,000 inhabitants (panel c), and the number of patrol vehicles per 100,000 inhabitants (panel d). Unlike the dummy spillover specification, the treatment variable is now continuous and equals the share of neighboring municipalities that have implemented \emph{Plan Cuadrante} by year $t$, following the spillover-intensity approach of \citet{crepon2013}. The sample is restricted to municipalities that never adopted \emph{Plan Cuadrante}. Estimation is performed using the heterogeneity-robust estimator of \citet{Chaisemartin}, which accommodates a continuous, time-varying treatment intensity in a staggered design. The dots represent the estimated dynamic effects and the bars behind them denote 95\% confidence intervals. Standard errors are clustered at the municipality level. The pooled effect  and the mean of the outcome among municipalities with no treated neighbors are reported in each panel.
+    \end{minipage}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \caption{Geographic Spillovers of \emph{Plan Cuadrante} by Number of Treated Neighbors}
+    \label{fig:figure_count_spillovers}
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf}
+        \caption{Spillovers on Reported Crime}
+    \end{subfigure}%
+    ~
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf}
+        \caption{Spillovers on Arrests}
+    \end{subfigure}
+
+    \vspace{0.5em}
+
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_dotpc_count.pdf}
+        \caption{Spillovers on Police Officers}
+    \end{subfigure}%
+    ~
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=0.98\textwidth]{../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc_count.pdf}
+        \caption{Spillovers on Patrol Vehicles}
+    \end{subfigure}
+
+    \begin{minipage}{0.95\textwidth}
+    \footnotesize
+    Notes: This figure reports the geographic spillover effects of \emph{Plan Cuadrante} on four outcomes for never-treated municipalities: reported crime per 100,000 inhabitants (panel a), arrests per 100,000 inhabitants (panel b), the number of police officers per 100,000 inhabitants (panel c), and the number of patrol vehicles per 100,000 inhabitants (panel d). Unlike the dummy spillover specification, the treatment variable is now continuous and equals the number of neighboring municipalities that have implemented \emph{Plan Cuadrante} by year $t$, following the spillover-intensity approach of \citet{crepon2013}. The sample is restricted to municipalities that never adopted \emph{Plan Cuadrante}. Estimation is performed using the heterogeneity-robust estimator of \citet{Chaisemartin}, which accommodates a continuous, time-varying treatment intensity in a staggered design. The dots represent the estimated dynamic effects and the bars behind them denote 95\% confidence intervals. Standard errors are clustered at the municipality level. The pooled effect  and the mean of the outcome among municipalities with no treated neighbors are reported in each panel.
+    \end{minipage}
+\end{figure}

@@ -1,0 +1,58 @@
+\begin{table}[H]
+\centering
+\caption{Effects of \emph{Plan Cuadrante} Controlling for Police Resources}
+\label{tab:controlbyresources_csdid}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l ccccc}
+\toprule
+& (1) & (2) & (3) & (4) & (5) \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel A. Victimization}} \\[0.2em]
+ATT &       -0.099*** &       -0.077*** &       -0.086* &       -0.117*** &       -0.104** \\
+& (0.013) & (0.014) & (0.046) & (0.037) & (0.049) \\
+& [   93,041]  & [   53,973]  & [   53,553]  & [   71,597]  & [   52,415]  \\[0.4em]
+\multicolumn{6}{l}{\textit{Panel B. Trust in the police}} \\[0.2em]
+ATT &        0.111*** &        0.089*** &        0.075*** &        0.102* &        0.056** \\
+& (0.019) & (0.026) & (0.029) & (0.057) & (0.028) \\
+& [   45,679]  & [   18,582]  & [   18,582]  & [   29,625]  & [   18,582]  \\[0.4em]
+\multicolumn{6}{l}{\textit{Panel C. Crime perception}} \\[0.2em]
+ATT &       -0.149*** &       -0.140*** &       -0.112* &       -0.086 &       -0.099 \\
+& (0.025) & (0.032) & (0.058) & (0.065) & (0.066) \\
+& [   89,578]  & [   52,160]  & [   51,746]  & [   69,020]  & [   50,639]  \\[0.4em]
+\multicolumn{6}{l}{\textit{Panel D. Investment in security measures}} \\[0.2em]
+ATT &       -0.077*** &       -0.066*** &       -0.109** &       -0.080*** &       -0.112** \\
+& (0.016) & (0.019) & (0.044) & (0.027) & (0.049) \\
+& [   93,041]  & [   53,973]  & [   53,553]  & [   71,597]  & [   52,415]  \\[0.4em]
+\multicolumn{6}{l}{\textit{Panel E. Reported crime (per 100k pop.)}} \\[0.2em]
+ATT &     -208.024*** &     -157.010 &       29.230 &     -392.545 &      -53.655 \\
+& (56.130) & (56.224) & (147.261) & (206.408) & (205.776) \\
+& [    4,231]  & [    2,963]  & [    1,911]  & [    2,248]  & [    1,911]  \\[0.4em]
+\multicolumn{6}{l}{\textit{Panel F. Arrests (per 100k pop.)}} \\[0.2em]
+ATT &       48.024*** &       34.429 &      117.087 &       16.921 &       87.024 \\
+& (16.270) & (15.783) & (50.404) & (96.028) & (85.311) \\
+& [    3,293]  & [    2,963]  & [    1,911]  & [    2,248]  & [    1,911]  \\[0.4em]
+\midrule
+Sample                   & Full & 2006--2012 & 2006--2012 & 2005--2012 & 2006--2012 \\
+Officers per 100k        &      &            & \checkmark &            &            \\
+Patrol vehicles per 100k &      &            &            & \checkmark &            \\
+ESU per 100k             &      &            &            &            & \checkmark \\
+\bottomrule
+\end{tabular}
+}
+\par{
+\begin{tabular}{p{\textwidth}}
+\footnotesize{\textit{Note:} This table reports ATT estimates of the effect of \emph{Plan Cuadrante} on each
+outcome, adding time-varying controls for police resources in per-capita terms
+(per 100{,}000 inhabitants). Column (1) replicates the baseline on the full sample.
+Column (2) restricts to the resource-data years but adds no controls, serving as the
+restricted-sample benchmark. Columns (3)--(5) add: officers only,
+patrol vehicles only, and the ESU (Equivalent Surveillance Units) index,
+defined as patrol vehicles per 100k plus 0.2 times officers per 100k following the
+Carabineros de Chile surveillance-point weights. The estimation is conducted using the procedure developed
+in Callaway and Sant'Anna (2021) for difference-in-differences with staggered treatment
+adoption. Standard errors are clustered at the municipality level using wild
+bootstrapping.} \\
+\footnotesize{$^{*}p<0.1$, $^{**}p<0.05$, $^{***}p<0.01$.}
+\end{tabular}
+}
+\end{table}

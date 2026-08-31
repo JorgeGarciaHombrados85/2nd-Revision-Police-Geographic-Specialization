@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\caption{Multiple Hypothesis Testing: Bonferroni Correction}
+\label{tab:bonferroni}
+\begin{tabular}{lcccc}
+\toprule
+Outcome & \multicolumn{2}{c}{} & \multicolumn{2}{c}{Bonferroni} \\
+ & \multicolumn{2}{c}{Original} & \multicolumn{2}{c}{adjusted} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & p-value & & p-value & \\
+\midrule
+Victimization & 0.00000 & *** & 0.00000 & *** \\
+Reported crime (per 100k pop.) & 0.00021 & *** & 0.00126 & *** \\
+Crime perception & 0.00000 & *** & 0.00000 & *** \\
+Investment in security measures & 0.00000 & *** & 0.00000 & *** \\
+Trust in the police & 0.00000 & *** & 0.00000 & *** \\
+Arrests (per 100k pop.) & 0.00316 & *** & 0.01896 & ** \\
+\midrule
+\multicolumn{5}{l}{\footnotesize Notes: Bonferroni correction multiplies each p-value by the number of} \\
+\multicolumn{5}{l}{\footnotesize outcomes tested ($n=6$). Significance levels: *** $p<0.01$, ** $p<0.05$, * $p<0.1$.}
+\end{tabular}
+\end{table}

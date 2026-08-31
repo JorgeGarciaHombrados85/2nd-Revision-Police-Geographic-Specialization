@@ -1,0 +1,144 @@
+\documentclass[11pt,english, letter, amsmath]{article}
+\input{00_preamble.tex}
+
+\begin{document}
+\raggedbottom
+\thispagestyle{empty}\setcounter{page}{0}
+\vspace*{.2in}
+
+\begin{center}
+\textbf{\Large Boots in the Beat: Effects of Beat Policing on Victimization and Crime Perception}$^\dagger$
+\end{center}
+\vspace{.25in}
+
+\begin{center}\large
+  Andr\'es Barrios-Fern\'andez \hspace{.12in}
+  Jorge Garc\'ia-Hombrados \hspace{.12in}
+  Daniel P\'erez-Parra
+\end{center}
+
+\medskip
+
+\begin{center}\large
+\today \\
+\href{https://andresbarriosf.github.io/police_reform.pdf}{Latest Version}
+\end{center}
+
+\mythanks{\hspace{-.25in}$^\dagger$
+Corresponding author: Andrés Barrios-Fernández (andres.bafer@alumni.lse.ac.uk). School of Business and Economics. Universidad de los Andes, Chile. Monseñor Álvaro del Portillo 12.455. Las Condes. Santiago. We thank Carabineros de Chile for granting us access to the administrative data we use in this project. Andr\'es Barrios-Fernández acknowledges the financial support of Fondecyt Regular Project 1261817. Supplemental materials are available in the \href{https://andresbarriosf.github.io/online_appendix_police_reform.pdf}{Online Appendix}.}
+
+\vspace{0.1in}
+
+\begin{abstract}
+\input{Edited sections/00_abstract.tex}
+\end{abstract}
+
+
+
+\clearpage
+
+
+%\onehalfspacing
+\doublespacing
+
+\section{Introduction}
+\label{introduction}
+\input{Edited sections/01_introduction.tex}
+
+\section{\emph{Plan Cuadrante}: Design and Implementation}
+\label{institutions}
+\input{Edited sections/02_institutions.tex}
+
+\section{Data and Empirical Strategy}
+\label{identification}
+\input{Edited sections/03_data.tex}
+
+\section{Results}
+\label{results}
+\input{Edited sections/04_results.tex}
+
+\section{Conclusions}
+\label{conclusions}
+\input{Edited sections/05_conclusions.tex}
+
+\clearpage
+\renewcommand\refname{References}
+\bibliographystyle{chicago}
+\bibliography{Bibliography}
+
+%--- Figures --------------------------------------------------
+%--- All figures and tables should be called now from within each section of the manuscript or appendix. Dani, make sure all figures are called in the right place.
+%\input{Tables/Implementation.tex}
+
+%--- ONLINE APPENDIX --------------------------------------------------
+\FloatBarrier
+\clearpage
+
+\thispagestyle{empty}\setcounter{page}{0}
+\vspace*{.2in}
+
+\begin{center}
+\textbf{\Large Boots in the Beat: Effects of Beat Policing on Victimization and Crime Perception}$^\dagger$
+\end{center}
+\vspace{.25in}
+
+\begin{center}\large
+  Andr\'es Barrios-Fern\'andez \hspace{.12in}
+  Jorge Garc\'ia-Hombrados \hspace{.12in}
+  Daniel P\'erez-Parra
+\end{center}
+
+\medskip
+
+\begin{center}\large
+\today \\
+\href{https://andresbarriosf.github.io/police_reform.pdf}{Latest Version}
+\end{center}
+
+\mythanks{\hspace{-.25in}$^\dagger$
+Corresponding author: Andrés Barrios-Fernández (andres.bafer@alumni.lse.ac.uk). School of Business and Economics. Universidad de los Andes, Chile. Monseñor Álvaro del Portillo 12.455. Las Condes. Santiago. We thank Carabineros de Chile for granting us access to the administrative data we use in this project. Andr\'es Barrios-Fernández acknowledges the financial support of Fondecyt Regular Project 1261817.}
+
+\onehalfspacing
+\appendix
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{\arabic{tocdepth}}}
+\tableofcontents
+\newpage
+
+%---- Online Appendix A - Implementation Details
+\clearpage
+\section{The Rollout of \emph{Plan Cuadrante}} \label{sec:appendixA}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{\Alph{section}\arabic{figure}}
+\setcounter{table}{0}
+\renewcommand{\thetable}{\Alph{section}\arabic{table}}
+
+\input{Edited sections/A_implementation_details.tex}
+
+%---- Online Appendix B - Additional Results
+\clearpage
+\section{Additional Results} \label{sec:appendixB}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{\Alph{section}\arabic{figure}}
+\setcounter{table}{0}
+\renewcommand{\thetable}{\Alph{section}\arabic{table}}
+
+\input{Edited sections/B_additional_results.tex}
+
+%---- Online Appendix C - Robustness Checks
+\clearpage
+
+\section{Robustness Checks} \label{sec:appendixC}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{\Alph{section}\arabic{figure}}
+\setcounter{table}{0}
+\renewcommand{\thetable}{\Alph{section}\arabic{table}}
+
+\input{Edited sections/C_robustness_checks.tex}
+
+\FloatBarrier
+
+\end{document}
+

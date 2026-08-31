@@ -1,0 +1,33 @@
+%--- Robustness check: 2010 Maule earthquake (Mercalli > 7 excluded)
+\begin{figure}[h!]
+    \centering
+    \caption{Effects of \emph{Plan Cuadrante} excluding Municipalities Affected by the 2010 Earthquake}
+    \label{fig:figure02_noEQ}
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../manuscript/Graphs/results_victimization_noEQ.pdf}
+        \caption{Victimization in last 12 months}
+    \end{subfigure}%
+    ~
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../manuscript/Graphs/totalreportedcrime_allcomunas_noEQ.pdf}
+        \caption{Reported crime per 100k inhabitants}
+    \end{subfigure}
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../manuscript/Graphs/results_perception_noEQ.pdf}
+        \caption{Households reporting an increase in crime}
+    \end{subfigure}%
+    ~
+    \begin{subfigure}{0.495\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../manuscript/Graphs/results_hhprotectionmeasures_noEQ.pdf}
+        \caption{Households adopting security measures}
+    \end{subfigure}
+    \\[12pt]
+    \begin{minipage}{0.99\textwidth}
+    \footnotesize
+    Notes: This figure replicates the results of Figure \ref{fig:figure02} after excluding municipalities affected by the 2010 Maule earthquake, defined as those with a Modified Mercalli Intensity (MMI) score strictly greater than 7. The estimation is conducted using the procedure developed in \citet{Callaway} for difference-in-differences with staggered treatment adoption. The dots in the figure represent the estimated coefficients and the bars behind them 95\% confidence intervals. Standard errors are clustered at the municipality level using the wild bootstrapping procedure. The pooled effect and the mean outcome before the introduction of the treatment is also presented in each panel. Panel (a) reports the effect of \emph{Plan Cuadrante} on the probability of household victimization in the last 12 months using the ENUSC survey. Panel (b) reports the effect on the number of crimes reported to the police in the municipality per 100,000 inhabitants using administrative data. Panel (c) reports the effect on the probability of perceiving an increase in crime using the ENUSC survey. Panel (d) reports the effect on the probability of adopting security measures in the last twelve months using the ENUSC survey.
+    \end{minipage}
+\end{figure}

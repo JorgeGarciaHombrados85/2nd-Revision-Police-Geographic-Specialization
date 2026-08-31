@@ -1,0 +1,26 @@
+\begin{table}[h!]
+\caption{Effects of \emph{Plan Cuadrante} on Household Security Measures, by Type of Measure and Socioeconomic Status}
+\label{tab:hhprotectionmeasurestype}
+\begin{center}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccc} \hline \hline
+& (1) & (2) & (3) & (4) & (5) & (6) \\
+& \multicolumn{3}{c}{Cheap measures} & \multicolumn{3}{c}{Expensive measures} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+& All & Higher SES & Lower SES & All & Higher SES & Lower SES \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\\
+ATT & -0.072*** & -0.090*** & -0.058*** & -0.015*** & -0.028*** & -0.004 \\
+& (0.015) & (0.018) & (0.018) & (0.005) & (0.010) & (0.005) \\
+\\
+N & 93,041 & 40,377 & 52,664 & 93,041 & 40,377 & 52,664 \\
+Municipalities & 47 & 47 & 47 & 47 & 47 & 47 \\
+Y mean & 0.176 & 0.211 & 0.151 & 0.050 & 0.085 & 0.026 \\
+\hline \hline
+\end{tabular}}
+\par{
+\begin{tabular}{p{\textwidth}}
+\footnotesize{Note: This table reports the effect of \emph{Plan Cuadrante} on the probability that a household adopted a given type of security measure in the previous 12 months, using ENUSC survey data. Cheap measures are window grilles and guard dogs; expensive measures are firearms, alarms, private security insurance, and private guards. Columns (1)--(3) report the effects on cheap measures and columns (4)--(6) on expensive measures, for all households and split by household socioeconomic status (SES), with Higher SES denoting the upper SES strata and Lower SES the lower strata. The reported ATT is the average post-treatment effect, estimated with the staggered difference-in-differences procedure of \citet{Callaway}. Standard errors, clustered at the municipality level using the wild bootstrap, are reported in parentheses. The Y mean row reports the mean of the outcome among treated municipalities before adoption. ***p$<$0.01, **p$<$0.05, *p$<$0.1.} \\
+\end{tabular}}
+\end{center}
+\end{table}

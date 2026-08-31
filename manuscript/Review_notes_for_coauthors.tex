@@ -1,0 +1,96 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\setlist[itemize]{leftmargin=1.4em, itemsep=6pt, topsep=3pt}
+\setlength{\parskip}{6pt}
+
+\newcommand{\where}[1]{{\small\textit{#1}}}
+% tag that makes the status / fix explicit on every item
+\newcommand{\fix}[1]{\smallskip\par\hangindent=1em \textbf{\itshape #1}}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Points to review before we resubmit}\\[3pt]
+{\normalsize\itshape Boots in the Beat: Effects of Beat Policing on Victimization and Crime Perception}\\[3pt]
+{\small \today}
+\end{center}
+
+\vspace{4pt}
+
+Hi both,
+
+Here's a consolidated list of everything I've touched or flagged in the current draft, so we have it all in one place before we resubmit. For each one I note \emph{where} it lives (section and paragraph, plus the \texttt{.tex} file and line) and \emph{what} the issue is. I've tagged each with its status: \textbf{\itshape Done} items are already changed (most just for your information, a few I'd like you to confirm), and \textbf{\itshape Proposed / To decide / Open} items still need a call from us. Where I've already made a fix I say so; the rest I've left open rather than putting words in our mouths.
+
+\section*{Front matter}
+\begin{itemize}
+\item \textbf{JEL codes and keywords are still missing.} There's currently nothing between the abstract and the first \texttt{\textbackslash clearpage} (\texttt{00\_main.tex}, around line~40), which is where they'd normally sit.
+\fix{Open:} we still need to add a JEL classification and a keyword list --- no proposal on the table yet, so let's agree on them.
+\end{itemize}
+
+\section*{Abstract \where{(00\_abstract.tex, the single paragraph)}}
+\begin{itemize}
+\item \textbf{How we report the arrests / crime figures.} We report arrests as ``increased by 8 percentage points (22\%).''
+\fix{Done (needs review):} I clarified that this is the \emph{number} of arrests, not arrests per crime.
+\fix{Still open:} separately, we flagged that the crime and arrests figures can read as absolute counts rather than rates --- not resolved yet.
+\end{itemize}
+
+\section*{Section 2 --- Design \& Implementation \where{(02\_institutions.tex)}}
+\begin{itemize}
+\item \textbf{Removed a redundant subsection heading.} \where{(opening of the section).}
+\fix{Done (no action needed):} dropped the manual ``Carabineros de Chile and the \emph{Plan Cuadrante} Reform'' subsection heading --- there was only one subsection and the section already has its title, so the text now flows directly.
+\item \textbf{Which sample for the comisar\'ia statistics?} \where{(paragraph~4, line~7).} The line ``on average, a comisar\'ia in our sample covered 1{,}608 km$^2$ and served 57{,}642 inhabitants \dots'' is computed on the 96 administrative (SPD) treated municipalities.
+\fix{To decide:} keep these figures on the 96 administrative municipalities, or recompute them for the 46 ENUSC municipalities instead --- still open, no choice made.
+\item \textbf{Quadrant share of the comisar\'ia territory.} \where{(the paragraph right after Figure~1, line~19).} The old ``x\%'' placeholder needed a real number.
+\fix{Done (confirm):} I filled it with \textbf{14\%}, computed as comisar\'ias divided by quadrants in 2005 (146 / 1{,}071 $\approx$ 13.6\%, i.e.\ each comisar\'ia split into about seven quadrants). Please confirm that's what we mean by ``\% of the original comisar\'ia territory.''
+\item \textbf{Figure~1 --- panels switched and Panel~(b) redrawn.} \where{(Figures/figure01\_implementation.tex; the panels are described in \S2 --- (a) in the rollout paragraph, (b) in the quadrant-structure paragraph).} I reorganized the figure.
+\fix{Done --- Andr\'es, please confirm:} I switched the order of the two panels and redrew Panel~(b) to match what you'd been describing. I'm not certain I captured exactly what you meant, so could you take a look and tell me if it's what you had in mind?
+\item \textbf{``Crime perception'' vs.\ ``insecurity perception.''} \where{(terminology, runs through the section and \S4.1).} The text talks about \emph{insecurity} perception, but the figures still label the variable ``crime perception.''
+\fix{Proposed (per our notes):} standardize on ``insecurity perception'' and relabel the figures (mainly the panel~(c) labels in Figure~2) to match the text.
+\end{itemize}
+
+\section*{Section 3 --- Data \& Empirical Strategy \where{(03\_data.tex)}}
+\begin{itemize}
+\item \textbf{Population share corrected.} \where{(Data subsection, line~7).}
+\fix{Done (no action needed):} changed ``these areas represent 35\% of Chile's population'' to \textbf{27\%} (the 46 + 1 ENUSC municipalities; for reference, that's 30\% of the urban population and 30\% of the population under \emph{Plan Cuadrante}).
+\item \textbf{Administrative-data window corrected.} \where{(Empirical Strategy, line~13).}
+\fix{Done (no action needed):} changed the administrative variation from ``2004--2013'' to \textbf{2003--2013} (Temuco and Padre de las Casas adopted in 2003, with 2002 baseline data).
+\item \textbf{The administrative sample isn't spelled out here.} \where{(Data subsection, administrative-data paragraph, line~9).} We give the ENUSC sample (46 + 1 municipalities, 27\% of the population) but never state the administrative sample composition in this section, even though the introduction alludes to it.
+\fix{Proposed (per our notes):} add the 292 municipalities (96 treated + 196 never-treated) to this paragraph so both samples are explicit.
+\item \textbf{Arrests window isn't flagged in footnote~6.} \where{(Empirical Strategy, line~13).} The text says administrative analyses use 2003--2013 variation; that's right for reported crimes, but arrests only run 2005--2013 (data availability).
+\fix{Proposed (per our notes):} add a note to footnote~6 specifying that the 2005--2013 window applies to the arrests analyses.
+\end{itemize}
+
+\section*{Section 4 --- Results (and Appendix B.4)}
+\begin{itemize}
+\item \textbf{Pre-trends footnote was mislabeled.} \where{(footnote~7, \S4.1 first paragraph; 04\_results.tex, line~6).} We had been reporting the ``average pre-treatment effect $=0$'' p-values but labeling them as the joint-significance test. With both now shown, the joint test is a bit less reassuring --- reported crime comes out marginal at 0.049.
+\fix{Done; decision needed:} I corrected it and added a line noting those pre-coefficients are slightly positive and therefore conservative. We still need to decide: report both tests, only the average-effect test, or keep both with the conservative-bias caveat.
+\item \textbf{\S4.2 and Appendix B.4 were saying the same thing.} \where{(04\_02\_spillovers.tex and B\_robustness\_checks.tex).}
+\fix{Done:} I de-duplicated them --- \S4.2 now carries the narrative of the exercises and B.4 holds the technical specs (equations, estimator choices, and the six ENUSC focal comunas with their adopting neighbors), following Jorge's response-to-reviewers text. Just needs a confirming read that nothing important got dropped.
+\item \textbf{A reference is now printing as (?).} \where{(\S4.2, end of paragraph~1; 04\_02\_spillovers.tex, line~3).} The claim that Carabineros assign officers to comisar\'ias for fixed periods was propped up by a placeholder citation, which I removed --- so it now shows as \textbf{(?)} on page~17.
+\fix{Resolved:} not a citation but a footnote pointing to the Transfer Manual for Carabineros de Chile Personnel (\url{https://www.carabineros.cl/transparencia/og/pdf/OG_2707_13112019.pdf}). Added in 04\_02\_spillovers.tex and in the matching claim in response/Parts/r1\_01.tex.
+\end{itemize}
+
+\section*{Appendix A --- Implementation details \where{(A\_implementation\_details.tex)}}
+\begin{itemize}
+\item \textbf{Coherence with the expanded Section~2.} \where{(esp.\ \S A.1 ``The Reform,'' lines~4--8).} Now that \S2 carries the full description of the program, some of Appendix~A may now duplicate it.
+\fix{To review (per our notes):} check whether Appendix~A still complements rather than repeats the Introduction and \S2; and consider adding country- and region-level rollout maps to give a visual of the geographic expansion.
+\item \textbf{Tables A1--A3 were reformatted; A3 needs a check.} \where{(the three tables, input at lines~34, 36 and 38).} A1 is the implementation/rollout table, A2 the ENUSC household descriptives, A3 the SPD municipality descriptives.
+\fix{Done, but needs a check:} I reformatted all three. Please look at \textbf{Table A3} (municipality level, line~38) in particular --- the way it was split into the two samples wasn't clearly defined before.
+\end{itemize}
+
+\section*{Appendix C --- Additional results \where{(C\_additional\_results.tex)}}
+\begin{itemize}
+\item \textbf{Table C1 didn't exist and Figure C1 was stale.} \where{(\S C.1--C.2).} Table~C1 (security measures by type and SES) was referenced in the text but had never actually been created, and Figure~C1 used pre-cap graphs.
+\fix{Done:} I created Table~C1 following the Table~B1 layout (ATT with stars, SE, N, municipalities, Y mean, capped at t+6) and refreshed Figure~C1 (effects by crime type) with the t+6-capped graphs. Both could use a look.
+\end{itemize}
+
+\vspace{8pt}
+That's the full set. The ``Done'' items are already in the draft --- most are just for your information, and the few I've flagged need only a quick confirmation; the ``Proposed,'' ``To decide,'' and ``Open'' items are the ones where I need your call before I implement them.
+
+\end{document}

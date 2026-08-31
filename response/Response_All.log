@@ -1,0 +1,4565 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  10 JUL 2026 14:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Response_All.tex
+(./Response_All.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(./Parts/Preamble/preamble_Response.tex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count193
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count194
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box50
+)
+\tc@llx=\dimen141
+\tc@lly=\dimen142
+\tc@urx=\dimen143
+\tc@ury=\dimen144
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen145
+\adjbox@Height=\dimen146
+\adjbox@Depth=\dimen147
+\adjbox@Totalheight=\dimen148
+\adjbox@pwidth=\dimen149
+\adjbox@pheight=\dimen150
+\adjbox@pdepth=\dimen151
+\adjbox@ptotalheight=\dimen152
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count195
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box51
+\sift@deathcycles=\count196
+\@vwid@loff=\dimen153
+\@vwid@roff=\dimen154
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen155
+\captionmargin=\dimen156
+\caption@leftmargin=\dimen157
+\caption@rightmargin=\dimen158
+\caption@width=\dimen159
+\caption@indent=\dimen160
+\caption@parindent=\dimen161
+\caption@hangindent=\dimen162
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count197
+\c@continuedfloat=\count198
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count199
+\c@subtable=\count266
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box52
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count267
+\rotFPtop=\skip51
+\rotFPbot=\skip52
+\rot@float@box=\box53
+\rot@mess@toks=\toks21
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count268
+\@cmidlb=\count269
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count270
+\@lastruleclass=\count271
+\@thisrulewidth=\dimen175
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count272
+)
+\csq@reset=\count273
+\csq@gtype=\count274
+\csq@glevel=\count275
+\csq@qlevel=\count276
+\csq@maxlvl=\count277
+\csq@tshold=\count278
+\csq@ltx@everypar=\toks22
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip53
+\RaggedLeftLeftskip=\skip54
+\RaggedRightLeftskip=\skip55
+\CenteringRightskip=\skip56
+\RaggedLeftRightskip=\skip57
+\RaggedRightRightskip=\skip58
+\CenteringParfillskip=\skip59
+\RaggedLeftParfillskip=\skip60
+\RaggedRightParfillskip=\skip61
+\JustifyingParfillskip=\skip62
+\CenteringParindent=\skip63
+\RaggedLeftParindent=\skip64
+\RaggedRightParindent=\skip65
+\JustifyingParindent=\skip66
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count279
+\multirow@dima=\skip68
+\bigstrutjot=\dimen176
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box54
+\extrarowheight=\dimen178
+\NC@list=\toks23
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box55
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen179
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen180
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count280
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count281
+\leftroot@=\count282
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count285
+\c@MaxMatrixCols=\count286
+\dotsspace@=\muskip16
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks25
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks26
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
+\@envbody=\toks27
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count292
+\Hy@pagecounter=\count293
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count294
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count295
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen189
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count296
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count297
+\c@Item=\count298
+\c@Hfootnote=\count299
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip74
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen192
+\calc@Bdimen=\dimen193
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip77
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count305
+\l_MT_multwidth_dim=\dimen194
+\origjot=\skip78
+\l_MT_shortvdotswithinadjustabove_dim=\dimen195
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen196
+\l_MT_above_intertext_sep=\dimen197
+\l_MT_below_intertext_sep=\dimen198
+\l_MT_above_shortintertext_sep=\dimen199
+\l_MT_below_shortintertext_sep=\dimen256
+\xmathstrut@box=\box58
+\xmathstrut@dim=\dimen257
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
+\thm@preskip=\skip79
+\thm@postskip=\skip80
+\thm@headsep=\skip81
+\dth@everypar=\toks34
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks35
+\labelindent=\skip82
+\enit@outerparindent=\dimen258
+\enit@toks=\toks36
+\enit@inbox=\box59
+\enit@count@id=\count306
+\enitdp@description=\count307
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count308
+\float@exts=\toks37
+\float@box=\box60
+\@float@everytoks=\toks38
+\@floatcapt=\box61
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box62
+\UL@hyphenbox=\box63
+\UL@skip=\skip83
+\UL@hook=\toks39
+\UL@height=\dimen259
+\UL@pe=\count309
+\UL@pixel=\dimen260
+\ULC@box=\box64
+Package: ulem 2019/11/18
+\ULdepth=\dimen261
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks40
+\SOUL@lasttoken=\toks41
+\SOUL@cmds=\toks42
+\SOUL@buffer=\toks43
+\SOUL@token=\toks44
+\SOUL@spaceskip=\skip84
+\SOUL@ttwidth=\dimen262
+\SOUL@uldp=\dimen263
+\SOUL@ulht=\dimen264
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks45
+\pgfutil@tempdima=\dimen265
+\pgfutil@tempdimb=\dimen266
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box65
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks48
+))
+\pgf@x=\dimen267
+\pgf@y=\dimen268
+\pgf@xa=\dimen269
+\pgf@ya=\dimen270
+\pgf@xb=\dimen271
+\pgf@yb=\dimen272
+\pgf@xc=\dimen273
+\pgf@yc=\dimen274
+\pgf@xd=\dimen275
+\pgf@yd=\dimen276
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count310
+\c@pgf@countb=\count311
+\c@pgf@countc=\count312
+\c@pgf@countd=\count313
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count314
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count315
+\pgfsyssoftpath@bigbuffer@items=\count316
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen277
+\pgfmath@count=\count317
+\pgfmath@box=\box66
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count318
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen278
+\pgf@picmaxx=\dimen279
+\pgf@picminy=\dimen280
+\pgf@picmaxy=\dimen281
+\pgf@pathminx=\dimen282
+\pgf@pathmaxx=\dimen283
+\pgf@pathminy=\dimen284
+\pgf@pathmaxy=\dimen285
+\pgf@xx=\dimen286
+\pgf@xy=\dimen287
+\pgf@yx=\dimen288
+\pgf@yy=\dimen289
+\pgf@zx=\dimen290
+\pgf@zy=\dimen291
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen292
+\pgf@path@lasty=\dimen293
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen294
+\pgf@shorten@start@additional=\dimen295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count319
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen296
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen297
+\pgf@pt@y=\dimen298
+\pgf@pt@temp=\dimen299
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen300
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen301
+\pgf@sys@shading@range@num=\count320
+\pgf@shadingcount=\count321
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box70
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box71
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen302
+\pgf@nodesepend=\dimen303
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen304
+\pgffor@skip=\dimen305
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count322
+\pgfplotmarksize=\dimen306
+)
+\tikz@lastx=\dimen307
+\tikz@lasty=\dimen308
+\tikz@lastxsaved=\dimen309
+\tikz@lastysaved=\dimen310
+\tikz@lastmovetox=\dimen311
+\tikz@lastmovetoy=\dimen312
+\tikzleveldistance=\dimen313
+\tikzsiblingdistance=\dimen314
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count323
+\tikznumberofchildren=\count324
+\tikznumberofcurrentchild=\count325
+\tikz@fig@count=\count326
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count327
+\pgfmatrixcurrentcolumn=\count328
+\pgf@matrix@numberofcolumns=\count329
+)
+\tikz@expandcount=\count330
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\c@@todonotes@numberoftodonotes=\count331
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box76
+\beforetitleunit=\skip85
+\aftertitleunit=\skip86
+\ttl@plus=\dimen315
+\ttl@minus=\dimen316
+\ttl@toksa=\toks57
+\titlewidth=\dimen317
+\titlewidthlast=\dimen318
+\titlewidthfirst=\dimen319
+)
+\c@prop=\count332
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count333
+\cp@tempcnt=\count334
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bibunits/bibunits.sty
+Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
+\@bibunitaux=\write4
+\@bibunitauxcnt=\count335
+)
+\gdef\bu@bibstyle{chicago}
+\gdef\bu@bibdata{../manuscript/Bibliography}
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count336
+\Gm@cntv=\count337
+\c@Gm@tempcnt=\count338
+\Gm@bindingoffset=\dimen320
+\Gm@wd@mp=\dimen321
+\Gm@odd@mp=\dimen322
+\Gm@even@mp=\dimen323
+\Gm@layoutwidth=\dimen324
+\Gm@layoutheight=\dimen325
+\Gm@layouthoffset=\dimen326
+\Gm@layoutvoffset=\dimen327
+\Gm@dimlist=\toks58
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 98.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-15 v3.0.49 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen328
+\l__siunitx_angle_marker_box=\box77
+\l__siunitx_angle_unit_box=\box78
+\l__siunitx_compound_count_int=\count339
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count340
+\l__siunitx_number_min_decimal_int=\count341
+\l__siunitx_number_min_integer_int=\count342
+\l__siunitx_number_round_precision_int=\count343
+\l__siunitx_number_group_minimum_int=\count344
+\l__siunitx_table_tmp_box=\box79
+\l__siunitx_table_tmp_dim=\dimen329
+\l__siunitx_table_column_width_dim=\dimen330
+\l__siunitx_table_integer_box=\box80
+\l__siunitx_table_decimal_box=\box81
+\l__siunitx_table_before_box=\box82
+\l__siunitx_table_after_box=\box83
+\l__siunitx_table_before_dim=\dimen331
+\l__siunitx_table_carry_dim=\dimen332
+\l__siunitx_unit_tmp_int=\count345
+\l__siunitx_unit_position_int=\count346
+\l__siunitx_unit_total_int=\count347
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count348
+\l__pdf_internal_box=\box84
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+))
+
+Package siunitx Info: Option "detect-mode" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "mode = match" as a replacement.
+
+
+Package siunitx Info: Option "group-digits = false" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "group-digits = none" as a replacement.
+
+
+Package siunitx Info: Option "input-symbols" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "input-digits" as a replacement.
+
+
+Package siunitx Info: Option "table-align-text-post" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "table-align-text-after" as a replacement.
+
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 5.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(./Response_All.aux
+
+LaTeX Warning: Label `fig:figure01' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_resources' multiply defined.
+
+
+LaTeX Warning: Label `tab:implementation' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure01' multiply defined.
+
+
+LaTeX Warning: Label `tab:implementation' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure01' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure05' multiply defined.
+
+
+LaTeX Warning: Label `fig:police_performance' multiply defined.
+
+
+LaTeX Warning: Label `fig:effectiveness_es' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure02' multiply defined.
+
+
+LaTeX Warning: Label `tab:implementation' multiply defined.
+
+
+LaTeX Warning: Label `fig:heterogeneity_appendix' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_controlbyresources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figureA5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figureA7B' multiply defined.
+
+
+LaTeX Warning: Label `tab:resourcecorrelates' multiply defined.
+
+
+LaTeX Warning: Label `fig:balance_doseresponse' multiply defined.
+
+
+LaTeX Warning: Label `fig:admin_uncapped' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_controlbyresources' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure05' multiply defined.
+
+
+LaTeX Warning: Label `fig:police_performance' multiply defined.
+
+
+LaTeX Warning: Label `fig:effectiveness_es' multiply defined.
+
+
+LaTeX Warning: Label `fig:balance_doseresponse' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure05' multiply defined.
+
+
+LaTeX Warning: Label `fig:police_performance' multiply defined.
+
+
+LaTeX Warning: Label `fig:effectiveness_es' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure02' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_controlbyresources' multiply defined.
+
+
+LaTeX Warning: Label `fig:heterogeneity_appendix' multiply defined.
+
+
+LaTeX Warning: Label `fig:figureA5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figureA7B' multiply defined.
+
+
+LaTeX Warning: Label `tab:resourcecorrelates' multiply defined.
+
+
+LaTeX Warning: Label `fig:balance_doseresponse' multiply defined.
+
+
+LaTeX Warning: Label `fig:admin_uncapped' multiply defined.
+
+
+LaTeX Warning: Label `fig:admin_uncapped' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure01' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure05' multiply defined.
+
+
+LaTeX Warning: Label `fig:police_performance' multiply defined.
+
+
+LaTeX Warning: Label `fig:effectiveness_es' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure02' multiply defined.
+
+
+LaTeX Warning: Label `tab:implementation' multiply defined.
+
+
+LaTeX Warning: Label `fig:heterogeneity_appendix' multiply defined.
+
+
+LaTeX Warning: Label `tab:results_controlbyresources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figureA5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figureA7B' multiply defined.
+
+
+LaTeX Warning: Label `tab:resourcecorrelates' multiply defined.
+
+
+LaTeX Warning: Label `fig:balance_doseresponse' multiply defined.
+
+
+LaTeX Warning: Label `fig:admin_uncapped' multiply defined.
+
+
+LaTeX Warning: Label `fig:pcsp_maps' multiply defined.
+
+
+LaTeX Warning: Label `tab:comparing_samples' multiply defined.
+
+
+LaTeX Warning: Label `tab:sum_statsA2' multiply defined.
+
+
+LaTeX Warning: Label `tab:sum_statsA3' multiply defined.
+
+
+LaTeX Warning: Label `eq:main3' multiply defined.
+
+
+LaTeX Warning: Label `eq:crepon' multiply defined.
+
+
+LaTeX Warning: Label `fig:spillover_admin' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_continuous_spillovers' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_count_spillovers' multiply defined.
+
+
+LaTeX Warning: Label `fig:ri_placebo' multiply defined.
+
+
+LaTeX Warning: Label `fig:ri_crime' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ri_crime' multiply defined.
+
+
+LaTeX Warning: Label `fig:ri_arrests' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ri_arrests' multiply defined.
+
+
+LaTeX Warning: Label `fig:ri_crime_spillover' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ri_crime_spillover' multiply defined.
+
+
+LaTeX Warning: Label `fig:ri_arrests_spillover' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ri_arrests_spillover' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_46ENUSC_spillovers_admin' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_results_spillovers_enusc' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure01' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure_resources' multiply defined.
+
+
+LaTeX Warning: Label `fig:resources2' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure05' multiply defined.
+
+
+LaTeX Warning: Label `fig:police_performance' multiply defined.
+
+
+LaTeX Warning: Label `fig:effectiveness_es' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure02' multiply defined.
+
+
+LaTeX Warning: Label `tab:resourcecorrelates' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure01' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure02' multiply defined.
+
+
+LaTeX Warning: Label `tab:implementation' multiply defined.
+
+
+LaTeX Warning: Label `tab:sum_statsA2' multiply defined.
+
+
+LaTeX Warning: Label `tab:sum_statsA3' multiply defined.
+
+
+LaTeX Warning: Label `tab:sum_statsA2' multiply defined.
+
+
+LaTeX Warning: Label `tab:sum_statsA3' multiply defined.
+
+
+LaTeX Warning: Label `fig:pcsp_maps' multiply defined.
+
+
+LaTeX Warning: Label `tab:comparing_samples' multiply defined.
+
+
+LaTeX Warning: Label `fig:admin_uncapped' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure02' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure05' multiply defined.
+
+
+LaTeX Warning: Label `fig:police_performance' multiply defined.
+
+
+LaTeX Warning: Label `fig:effectiveness_es' multiply defined.
+
+)
+\openout1 = `Response_All.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count349
+\scratchdimen=\dimen333
+\scratchbox=\box85
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen334
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks60
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen335
+\caption@adjustwidth@linewidth=\dimen336
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 5.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count355
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+ (./Response_All.out) (./Response_All.out)
+\@outlinefile=\write5
+\openout5 = `Response_All.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=18.06749pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 5.
+ (./Parts/Preamble/preamble_definitions.tex
+\c@TotalComments=\count356
+\c@AnsweredComments=\count357
+\c@Ref=\count358
+\c@RefComment=\count359
+)
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Parts/Editor.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+(./Parts/editor_01.tex (./bu1.aux)
+\openout4 = `bu1.aux'.
+
+ [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+(../manuscript/Edited sections/00_abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+[3])
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+(../manuscript/Edited sections/01_introduction.tex [4] [5] [6]
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+1.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+31.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+31.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 33.
+ [7])
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+(../manuscript/Edited sections/02_institutions.tex [8]
+(../manuscript/Figures/figure01_implementation.tex
+<../manuscript/Graphs/Graph_PCvariation.pdf, id=219, 542.025pt x 325.215pt>
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+<../manuscript/Graphs/Graph_PCexample_combined.png, id=220, 867.24pt x 505.89pt
+>
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] [10 <../manuscript/Graphs/Graph_PCvariation.pdf> <../manuscript/Graphs/Grap
+h_PCexample_combined.png>]) [11
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+(../manuscript/Edited sections/04_04_drivers.tex [12]
+(../manuscript/Figures/figure_resources.tex
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/fig4_officers.pdf): PDF inc
+lusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/fig4_officers.pdf, id=306, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/fig4_patrols.pdf): PDF incl
+usion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/fig4_patrols.pdf, id=307, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+<../manuscript/Graphs/increase_enusc_off_quintiles.pdf, id=308, 542.025pt x 325
+.215pt>
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 26.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 26.
+<../manuscript/Graphs/increase_enusc_pv_quintiles.pdf, id=309, 542.025pt x 325.
+215pt>
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+<../manuscript/Graphs/heterogeneity_off.pdf, id=310, 542.025pt x 325.215pt>
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+<../manuscript/Graphs/heterogeneity_pv.pdf, id=311, 542.025pt x 325.215pt>
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [13] [14 <../manuscript/Graphs/fig4_officers.pdf> <../manuscript/Graphs/fig4_
+patrols.pdf> <../manuscript/Graphs/increase_enusc_off_quintiles.pdf> <../manusc
+ript/Graphs/increase_enusc_pv_quintiles.pdf> <../manuscript/Graphs/heterogeneit
+y_off.pdf> <../manuscript/Graphs/heterogeneity_pv.pdf>]
+(../manuscript/Figures/figure_resources2.tex
+<../manuscript/Graphs/results_SC_att_combined.pdf, id=431, 542.025pt x 361.35pt
+>
+File: ../manuscript/Graphs/results_SC_att_combined.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_SC_att_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_SC_att_combined.pdf  used
+ on input line 8.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+<../manuscript/Graphs/results_corr_novariation_off_santiago.pdf, id=432, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off_sant
+iago.pdf  used on input line 14.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+<../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf, id=433, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh_sant
+iago.pdf  used on input line 20.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+
+
+LaTeX Warning: Float too large for page by 45.11873pt on input line 27.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [15] [16 <../manuscript/Graphs/results_SC_att_combined.pdf> <../manuscript/Gr
+aphs/results_corr_novariation_off_santiago.pdf> <../manuscript/Graphs/results_c
+orr_novariation_veh_santiago.pdf>] [17
+
+]
+(../manuscript/Figures/figure05_mechanisms.tex
+<../manuscript/Graphs/results_policepresence.pdf, id=496, 542.025pt x 325.215pt
+>
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+<../manuscript/Graphs/combined_PCttest_2.pdf, id=497, 542.025pt x 325.215pt>
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+<../manuscript/Graphs/totalarrestscrime_allcomunas.pdf, id=498, 542.025pt x 361
+.35pt>
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/arrests_over_reportedcrime_
+allcomunas.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf, id=499, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+<../manuscript/Graphs/results_trustcarabineros.pdf, id=500, 542.025pt x 361.35p
+t>
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+) [18])
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+(../manuscript/Edited sections/05_conclusions.tex [19 <../manuscript/Graphs/res
+ults_policepresence.pdf> <../manuscript/Graphs/combined_PCttest_2.pdf> <../manu
+script/Graphs/totalarrestscrime_allcomunas.pdf> <../manuscript/Graphs/arrests_o
+ver_reportedcrime_allcomunas.pdf> <../manuscript/Graphs/results_trustcarabinero
+s.pdf>]) [20] (../manuscript/Figures/figure02_results.tex
+<../manuscript/Graphs/results_victimization.pdf, id=606, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/totalreportedcrime_allcomun
+as.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allo
+wed
+<../manuscript/Graphs/totalreportedcrime_allcomunas.pdf, id=607, 542.025pt x 36
+1.35pt>
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+<../manuscript/Graphs/results_perception.pdf, id=608, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+<../manuscript/Graphs/results_hhprotectionmeasures.pdf, id=609, 542.025pt x 361
+.35pt>
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [21
+
+ <../manuscript/Graphs/results_victimization.pdf> <../manuscript/Graphs/totalre
+portedcrime_allcomunas.pdf> <../manuscript/Graphs/results_perception.pdf> <../m
+anuscript/Graphs/results_hhprotectionmeasures.pdf>]
+(../manuscript/Tables/Implementation.tex) [22
+
+]
+(../manuscript/Figures/figure_heterogeneity_appendix.tex
+<../manuscript/Graphs/heterogeneity_off_appendix.pdf, id=693, 542.025pt x 325.2
+15pt>
+File: ../manuscript/Graphs/heterogeneity_off_appendix.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/heterogeneity_off_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off_appendix.pdf  u
+sed on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+<../manuscript/Graphs/heterogeneity_pv_appendix.pdf, id=694, 542.025pt x 325.21
+5pt>
+File: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/heterogeneity_pv_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf  us
+ed on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+) [23
+
+ <../manuscript/Graphs/heterogeneity_off_appendix.pdf> <../manuscript/Graphs/he
+terogeneity_pv_appendix.pdf>] (../manuscript/Tables/table_controlbyresources_cs
+did.tex) [24
+
+]
+(../manuscript/Figures/figureA5_SC.tex
+<../manuscript/Graphs/results_victimization_SC.pdf, id=718, 542.025pt x 325.215
+pt>
+File: ../manuscript/Graphs/results_victimization_SC.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_victimization_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization_SC.pdf  use
+d on input line 9.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+<../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf, id=719, 542.025pt x
+ 325.215pt>
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf Graphic file (t
+ype pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.
+pdf  used on input line 15.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+<../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf, id=720, 542.025pt x 
+325.215pt>
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.p
+df  used on input line 24.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+<../manuscript/Graphs/results_perception_SC.pdf, id=721, 542.025pt x 325.215pt>
+
+File: ../manuscript/Graphs/results_perception_SC.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception_SC.pdf  used o
+n input line 30.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_hhprotectionmeasure
+s_SC.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
+lowed
+<../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf, id=722, 542.025pt x 
+325.215pt>
+File: ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures_SC.p
+df  used on input line 39.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+
+LaTeX Warning: Float too large for page by 45.47156pt on input line 49.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [25 <../manuscript/Graphs/results_victimization_SC.pdf> <../manuscript/Graphs
+/totalreportedcrime_allcomunas_SC.pdf> <../manuscript/Graphs/totalarrestscrime_
+allcomunas_SC.pdf> <../manuscript/Graphs/results_perception_SC.pdf> <../manuscr
+ipt/Graphs/results_hhprotectionmeasures_SC.pdf>]
+(../manuscript/Figures/FigureA7B_corrnovariation.tex
+<../manuscript/Graphs/results_corr_novariation_off.pdf, id=813, 542.025pt x 361
+.35pt>
+File: ../manuscript/Graphs/results_corr_novariation_off.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off.pdf 
+ used on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+<../manuscript/Graphs/results_corr_novariation_veh.pdf, id=814, 542.025pt x 361
+.35pt>
+File: ../manuscript/Graphs/results_corr_novariation_veh.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh.pdf 
+ used on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+) [26
+
+
+ <../manuscript/Graphs/results_corr_novariation_off.pdf> <../manuscript/Graphs/
+results_corr_novariation_veh.pdf>] (../manuscript/Tables/table_resourcecorrelat
+es.tex) [27
+
+]
+(../manuscript/Figures/Police effectiveness correlations with PC year.tex
+<../manuscript/Graphs/balance_carabperc.pdf, id=832, 542.025pt x 325.215pt>
+File: ../manuscript/Graphs/balance_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/balance_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/balance_carabperc.pdf  used on in
+put line 7.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+<../manuscript/Graphs/doseresponse_carabperc.pdf, id=833, 542.025pt x 325.215pt
+>
+File: ../manuscript/Graphs/doseresponse_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/doseresponse_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/doseresponse_carabperc.pdf  used 
+on input line 13.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+)
+[28
+
+ <../manuscript/Graphs/balance_carabperc.pdf> <../manuscript/Graphs/doserespons
+e_carabperc.pdf>] (../manuscript/Figures/Admin Results Uncapped.tex
+<../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf, id=844, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_unc
+apped.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf, id=845, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_unca
+pped.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+)
+[29
+
+ <../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf> <../manuscri
+pt/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>])
+(./Parts/editor_02.tex [30
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+(../manuscript/Edited sections/04_02_spillovers.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+5.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [31])
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+(../manuscript/Edited sections/C6_spillover_effects.tex) [32] [33]
+(../manuscript/Figures/figure03_spillovers.tex
+<../manuscript/Graphs/totalreportedcrime_allcomunas_neighbors.pdf, id=966, 542.
+025pt x 361.35pt>
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_neighbors.pdf Graphic 
+file (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_nei
+ghbors.pdf  used on input line 8.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/totalarrestscrime_allcomunas_neighbors.pdf, id=967, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_neighbors.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_neig
+hbors.pdf  used on input line 13.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf, id=968, 542.025pt x 361.3
+5pt>
+File: ../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf  u
+sed on input line 18.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/vehiclespc_allcomunas_neigh
+bors.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
+lowed
+<../manuscript/Graphs/vehiclespc_allcomunas_neighbors.pdf, id=969, 542.025pt x 
+361.35pt>
+File: ../manuscript/Graphs/vehiclespc_allcomunas_neighbors.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/vehiclespc_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/vehiclespc_allcomunas_neighbors.p
+df  used on input line 23.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [34
+
+ <../manuscript/Graphs/totalreportedcrime_allcomunas_neighbors.pdf> <../manuscr
+ipt/Graphs/totalarrestscrime_allcomunas_neighbors.pdf> <../manuscript/Graphs/do
+tpc_allcomunas_neighbors.pdf> <../manuscript/Graphs/vehiclespc_allcomunas_neigh
+bors.pdf>] (../manuscript/Figures/Spillovers with treatment intensity.tex
+<../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf, id=1046, 542.025pt x
+ 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_crime.p
+df  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/CHDH_continuous_spillover_arrests.pdf, id=1047, 542.025pt
+ x 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_arrests.pdf Graphic file (
+type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_arrests.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_arrests
+.pdf  used on input line 13.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/CHDH_continuous_spillover_dotpc.pdf, id=1048, 542.025pt x
+ 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_dotpc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc.p
+df  used on input line 21.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_continuous_spillover_v
+ehiclespc.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.
+5> allowed
+<../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc.pdf, id=1049, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_vehicle
+spc.pdf  used on input line 27.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf, id=1054, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_crime_c
+ount.pdf  used on input line 44.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf, id=1055, 542
+.025pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf Graphic 
+file (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_arrests
+_count.pdf  used on input line 50.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/CHDH_continuous_spillover_dotpc_count.pdf, id=1056, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc_count.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_dotpc_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc_c
+ount.pdf  used on input line 58.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_continuous_spillover_v
+ehiclespc_count.pdf): PDF inclusion: found PDF version <1.6>, but at most versi
+on <1.5> allowed
+<../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc_count.pdf, id=1057, 
+542.025pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc_count.pdf Graph
+ic file (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_vehicle
+spc_count.pdf  used on input line 64.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [35
+
+ <../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf> <../manuscript/Grap
+hs/CHDH_continuous_spillover_arrests.pdf> <../manuscript/Graphs/CHDH_continuous
+_spillover_dotpc.pdf> <../manuscript/Graphs/CHDH_continuous_spillover_vehiclesp
+c.pdf>] [36 <../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf> <.
+./manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf> <../manuscript
+/Graphs/CHDH_continuous_spillover_dotpc_count.pdf> <../manuscript/Graphs/CHDH_c
+ontinuous_spillover_vehiclespc_count.pdf>]
+(../manuscript/Figures/Permutations Analysis.tex
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf):
+ PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/CHDH_RI_placebo_crime.pdf, id=1211, 542.025pt x 361.35pt>
+
+File: ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf  used o
+n input line 7.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf, id=1212, 542.025pt x 361.35p
+t>
+File: ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf  used
+ on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_RI_placebo_crime_spill
+over.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
+lowed
+<../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.pdf, id=1213, 542.025pt x
+ 361.35pt>
+File: ../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.p
+df  used on input line 21.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_RI_placebo_arrests_spi
+llover.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> 
+allowed
+<../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover.pdf, id=1214, 542.025pt
+ x 361.35pt>
+File: ../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover.pdf Graphic file (
+type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover
+.pdf  used on input line 27.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [37
+
+ <../manuscript/Graphs/CHDH_RI_placebo_crime.pdf> <../manuscript/Graphs/CHDH_RI
+_placebo_arrests.pdf> <../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.pdf
+> <../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover.pdf>]
+(../manuscript/Figures/Spillovers with ENUSC sample.tex
+<../manuscript/Graphs/totalreportedcrime_enusc47_neighbors.pdf, id=1268, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/totalreportedcrime_enusc47_neighbors.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_enusc47_neighb
+ors.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/totalarrestscrime_enusc47_neighbors.pdf, id=1269, 542.025
+pt x 361.35pt>
+File: ../manuscript/Graphs/totalarrestscrime_enusc47_neighbors.pdf Graphic file
+ (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_enusc47_neighbo
+rs.pdf  used on input line 13.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+<../manuscript/Graphs/dotpc_enusc47_neighbors.pdf, id=1270, 542.025pt x 361.35p
+t>
+File: ../manuscript/Graphs/dotpc_enusc47_neighbors.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/dotpc_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/dotpc_enusc47_neighbors.pdf  used
+ on input line 21.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/vehiclespc_enusc47_neighbor
+s.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
+ed
+<../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf, id=1271, 542.025pt x 36
+1.35pt>
+File: ../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf 
+ used on input line 27.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_spillover_delitos.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/results_spillover_delitos.pdf, id=1274, 542.025pt x 361.3
+5pt>
+File: ../manuscript/Graphs/results_spillover_delitos.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/results_spillover_delitos.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_delitos.pdf  us
+ed on input line 43.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_spillover_insegurid
+ad_barrio1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<../manuscript/Graphs/results_spillover_inseguridad_barrio1.pdf, id=1275, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/results_spillover_inseguridad_barrio1.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_spillover_inseguridad_barrio1.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_inseguridad_bar
+rio1.pdf  used on input line 49.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_spillover_confianza
+_carabineros.pdf): PDF inclusion: found PDF version <1.6>, but at most version 
+<1.5> allowed
+<../manuscript/Graphs/results_spillover_confianza_carabineros.pdf, id=1276, 542
+.025pt x 361.35pt>
+File: ../manuscript/Graphs/results_spillover_confianza_carabineros.pdf Graphic 
+file (type pdf)
+<use ../manuscript/Graphs/results_spillover_confianza_carabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_confianza_carab
+ineros.pdf  used on input line 55.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_spillover_medidas_g
+eneral_12.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.
+5> allowed
+<../manuscript/Graphs/results_spillover_medidas_general_12.pdf, id=1277, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/results_spillover_medidas_general_12.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/results_spillover_medidas_general_12.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_medidas_general
+_12.pdf  used on input line 61.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [38
+
+ <../manuscript/Graphs/totalreportedcrime_enusc47_neighbors.pdf> <../manuscript
+/Graphs/totalarrestscrime_enusc47_neighbors.pdf> <../manuscript/Graphs/dotpc_en
+usc47_neighbors.pdf> <../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf>] [
+39 <../manuscript/Graphs/results_spillover_delitos.pdf> <../manuscript/Graphs/r
+esults_spillover_inseguridad_barrio1.pdf> <../manuscript/Graphs/results_spillov
+er_confianza_carabineros.pdf> <../manuscript/Graphs/results_spillover_medidas_g
+eneral_12.pdf>]) (./Parts/editor_03.tex) (./bu1.bbl [40
+
+] [41]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+29.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [42] [43])
+(./bu1.aux)
+No file bu.aux.
+) [44] (./Parts/R1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+(./Parts/r1_01.tex (./bu2.aux)
+\openout4 = `bu2.aux'.
+
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+(../manuscript/Edited sections/02_institutions.tex [46] [47]
+(../manuscript/Figures/figure01_implementation.tex
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+ [48]) [49
+
+]) [50]
+(../manuscript/Figures/figure_resources.tex
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [51
+
+] (../manuscript/Tables/Implementation.tex) [52
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+(./Parts/r1_02.tex [53
+
+] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+(../manuscript/Edited sections/02_institutions.tex [55]
+(../manuscript/Figures/figure01_implementation.tex
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56] [57]) [58
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+(../manuscript/Edited sections/01_introduction.tex [59] [60] [61] [62])
+[63] (../manuscript/Tables/Implementation.tex) [64
+
+]) (./Parts/r1_03.tex
+[65
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+(../manuscript/Edited sections/02_institutions.tex [66] [67]
+(../manuscript/Figures/figure01_implementation.tex
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+ [68]) [69
+
+])
+(../manuscript/Edited sections/04_04_drivers.tex [70]
+(../manuscript/Figures/figure_resources.tex
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [71] [72] (../manuscript/Figures/figure_resources2.tex
+File: ../manuscript/Graphs/results_SC_att_combined.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_SC_att_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_SC_att_combined.pdf  used
+ on input line 8.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off_sant
+iago.pdf  used on input line 14.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh_sant
+iago.pdf  used on input line 20.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+
+
+LaTeX Warning: Float too large for page by 45.11873pt on input line 27.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [73] [74] [75
+
+] (../manuscript/Figures/figure05_mechanisms.tex
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+) [76]) [77]
+[78] (../manuscript/Figures/figure02_results.tex
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [79
+
+]
+(../manuscript/Tables/Implementation.tex) [80
+
+]
+(../manuscript/Figures/figure_heterogeneity_appendix.tex
+File: ../manuscript/Graphs/heterogeneity_off_appendix.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/heterogeneity_off_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off_appendix.pdf  u
+sed on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/heterogeneity_pv_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf  us
+ed on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+) [81
+
+]
+(../manuscript/Tables/table_controlbyresources_csdid.tex) [82
+
+]
+(../manuscript/Figures/figureA5_SC.tex
+File: ../manuscript/Graphs/results_victimization_SC.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_victimization_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization_SC.pdf  use
+d on input line 9.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf Graphic file (t
+ype pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.
+pdf  used on input line 15.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.p
+df  used on input line 24.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/results_perception_SC.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception_SC.pdf  used o
+n input line 30.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures_SC.p
+df  used on input line 39.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+
+
+LaTeX Warning: Float too large for page by 45.47156pt on input line 49.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [83] (../manuscript/Figures/FigureA7B_corrnovariation.tex
+File: ../manuscript/Graphs/results_corr_novariation_off.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off.pdf 
+ used on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh.pdf 
+ used on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+) [84
+
+
+]
+(../manuscript/Tables/table_resourcecorrelates.tex) [85
+
+]
+(../manuscript/Figures/Police effectiveness correlations with PC year.tex
+File: ../manuscript/Graphs/balance_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/balance_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/balance_carabperc.pdf  used on in
+put line 7.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/doseresponse_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/doseresponse_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/doseresponse_carabperc.pdf  used 
+on input line 13.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+)
+[86
+
+] (../manuscript/Figures/Admin Results Uncapped.tex
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_unc
+apped.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_unca
+pped.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [87
+
+])
+(./Parts/r1_04.tex [88
+
+]
+Overfull \hbox (4.50208pt too wide) in paragraph at lines 16--17
+[]\OT1/lmr/m/n/10.95 We have added a foot-note ref-er-enc-ing the sug-gested ex
+-er-cise in Sec-tion 4.4 of the up-dated manuscript: 
+ []
+
+[89] (../manuscript/Tables/table_controlbyresources_csdid.tex)
+(../manuscript/Figures/figure_resources.tex
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [90] [91]) (./Parts/r1_05.tex [92
+
+] [93]
+(../manuscript/Figures/Robustness Earthquake.tex
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_victimization_noEQ.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../manuscript/Graphs/results_victimization_noEQ.pdf, id=2191, 542.025pt x 361.
+35pt>
+File: ../manuscript/Graphs/results_victimization_noEQ.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/results_victimization_noEQ.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization_noEQ.pdf  u
+sed on input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/totalreportedcrime_allcomun
+as_noEQ.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5>
+ allowed
+<../manuscript/Graphs/totalreportedcrime_allcomunas_noEQ.pdf, id=2192, 542.025p
+t x 361.35pt>
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_noEQ.pdf Graphic file 
+(type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_noEQ.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_noE
+Q.pdf  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_perception_noEQ.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/results_perception_noEQ.pdf, id=2193, 542.025pt x 361.35p
+t>
+File: ../manuscript/Graphs/results_perception_noEQ.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception_noEQ.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception_noEQ.pdf  used
+ on input line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/results_hhprotectionmeasure
+s_noEQ.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> 
+allowed
+<../manuscript/Graphs/results_hhprotectionmeasures_noEQ.pdf, id=2194, 542.025pt
+ x 361.35pt>
+File: ../manuscript/Graphs/results_hhprotectionmeasures_noEQ.pdf Graphic file (
+type pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures_noEQ.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures_noEQ
+.pdf  used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) (../manuscript/Figures/Heterogeneity Earthquake MMI.tex
+<../manuscript/Graphs/heterogeneity_earthquake_mmi.pdf, id=2198, 542.025pt x 36
+1.35pt>
+File: ../manuscript/Graphs/heterogeneity_earthquake_mmi.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/heterogeneity_earthquake_mmi.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_earthquake_mmi.pdf 
+ used on input line 6.
+(pdftex.def)             Requested size: 375.80544pt x 250.5448pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [94
+
+ <../manuscript/Graphs/results_victimization_noEQ.pdf> <../manuscript/Graphs/to
+talreportedcrime_allcomunas_noEQ.pdf> <../manuscript/Graphs/results_perception_
+noEQ.pdf> <../manuscript/Graphs/results_hhprotectionmeasures_noEQ.pdf>]
+[95 <../manuscript/Graphs/heterogeneity_earthquake_mmi.pdf>])
+(./Parts/r1_06.tex [96
+
+] [97] (../manuscript/Figures/figure05_mechanisms.tex
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+)
+[98
+
+] (../manuscript/Figures/Police effectiveness correlations with PC year.tex
+File: ../manuscript/Graphs/balance_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/balance_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/balance_carabperc.pdf  used on in
+put line 7.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/doseresponse_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/doseresponse_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/doseresponse_carabperc.pdf  used 
+on input line 13.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+) [99
+
+]) (./Parts/r1_07.tex [100
+
+] [101] [102]) (./Parts/r1_08.tex [103]
+(../manuscript/Edited sections/04_04_drivers.tex
+(../manuscript/Figures/figure_resources.tex
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [104] [105] (../manuscript/Figures/figure_resources2.tex
+File: ../manuscript/Graphs/results_SC_att_combined.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_SC_att_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_SC_att_combined.pdf  used
+ on input line 8.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off_sant
+iago.pdf  used on input line 14.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh_sant
+iago.pdf  used on input line 20.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+
+
+LaTeX Warning: Float too large for page by 45.11873pt on input line 27.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [106] [107] [108
+
+] (../manuscript/Figures/figure05_mechanisms.tex
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+) [109])
+[110] (../manuscript/Figures/figure02_results.tex
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [111
+
+]
+(../manuscript/Tables/table_controlbyresources_csdid.tex) [112
+
+]
+(../manuscript/Figures/figure_heterogeneity_appendix.tex
+File: ../manuscript/Graphs/heterogeneity_off_appendix.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/heterogeneity_off_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off_appendix.pdf  u
+sed on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/heterogeneity_pv_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf  us
+ed on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+) [113
+
+]
+(../manuscript/Figures/figureA5_SC.tex
+File: ../manuscript/Graphs/results_victimization_SC.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_victimization_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization_SC.pdf  use
+d on input line 9.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf Graphic file (t
+ype pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.
+pdf  used on input line 15.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.p
+df  used on input line 24.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/results_perception_SC.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception_SC.pdf  used o
+n input line 30.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures_SC.p
+df  used on input line 39.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+
+
+LaTeX Warning: Float too large for page by 45.47156pt on input line 49.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [114] (../manuscript/Figures/FigureA7B_corrnovariation.tex
+File: ../manuscript/Graphs/results_corr_novariation_off.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off.pdf 
+ used on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh.pdf 
+ used on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+) [115
+
+
+]
+(../manuscript/Tables/table_resourcecorrelates.tex) [116
+
+]
+(../manuscript/Figures/Police effectiveness correlations with PC year.tex
+File: ../manuscript/Graphs/balance_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/balance_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/balance_carabperc.pdf  used on in
+put line 7.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/doseresponse_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/doseresponse_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/doseresponse_carabperc.pdf  used 
+on input line 13.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+)
+[117
+
+] (../manuscript/Figures/Admin Results Uncapped.tex
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_unc
+apped.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_unca
+pped.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [118
+
+])
+(./Parts/r1_09.tex [119
+
+]
+Overfull \hbox (3.22295pt too wide) in paragraph at lines 20--21
+[]\OT1/lmr/m/n/10.95 Our em-pir-i-cal ap-proach ex-cludes always-treated mu-nic
+-i-pal-i-ties ([][]Call-away and Sant'Anna[][], [][]2021[][]).
+ []
+
+[120] [121] (../manuscript/Figures/Admin Results Uncapped.tex
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_unc
+apped.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_unca
+pped.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [122
+
+]
+(../manuscript/Tables/table_descriptivetable_ENUSC.tex) [123
+
+]
+(../manuscript/Tables/table_descriptivetable_SPD.tex) [124
+
+]
+(../manuscript/Figures/Map Plan Cuadrante.tex
+<../manuscript/Graphs/mapa_PCSP_Chile_combinado.png, id=2681, 7227.0pt x 4215.7
+5pt>
+File: ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png Graphic file (type png
+)
+<use ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png>
+Package pdftex.def Info: ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png  us
+ed on input line 5.
+(pdftex.def)             Requested size: 469.75502pt x 273.96904pt.
+) [125
+
+ <../manuscript/Graphs/mapa_PCSP_Chile_combinado.png>] (../manuscript/Tables/Ta
+ble Comparing Samples.tex)
+[126
+
+]) (./Parts/r1_10.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--163
+
+ []
+
+(./bu2.bbl
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Adda_eta
+l_2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4   et~al.}{2014}]{Adda_etal_2014}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ajzenman
+2022}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11   et~al.}{2023}]{ajzenman2022}
+                                   
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ang_etal
+_2025}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17   et~al.}{2025}]{ang_etal_2025}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Bardhan}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 ...thoryear{Bardhan}{Bardhan}{2002}]{Bardhan}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Basurto}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29   et~al.}{2020}]{Basurto}
+                              
+pdfTeX warning (ext4): destination with the same identifier (name{cite.besley20
+03centralized}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36   Coate}{2003}]{besley2003centralized}
+                                           
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Ley18961
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ...greso Nacional de Chile}}{1990}]{Ley18961}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.blair202
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52   et~al.}{2021}]{blair2021}
+                                 [127
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blanco_2
+025}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 ...oryear{Blanco}{Blanco}{2013}]{Blanco_2025}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blanes_K
+irchmaier}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 ... and Kirchmaier}{2018}]{Blanes_Kirchmaier}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blanes_M
+astrobuoni_2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71 ...strobuoni}{2018}]{Blanes_Mastrobuoni_2018}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blattman
+_Tobon_JEEA}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.77   et~al.}{2021}]{Blattman_Tobon_JEEA}
+                                          
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Bloom_20
+15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85   et~al.}{2015}]{Bloom_2015}
+                                 
+pdfTeX warning (ext4): destination with the same identifier (name{cite.SR_1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91   Hureau}{Braga et~al.}{2019}]{SR_1}
+                                         
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Scartasc
+ini}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97   Scartascini}{2021}]{Scartascini}
+                                       
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Callaway
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104   Sant’Anna}{2021}]{Callaway}
+                                     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Manual_C
+arabineros2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110   Chile}}{2018}]{Manual_Carabineros2018}
+                                              
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Chalfin_
+JEL}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.123   McCrary}{2017}]{Chalfin_JEL}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.cordner1
+995community}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 ...er}{Cordner}{1995}]{cordner1995community}
+                                                   [128]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.DiTella}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.134   Schargrodsky}{2004}]{DiTella}
+                                     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Draca_20
+11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141   et~al.}{2011}]{Draca_2011}
+                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Evans}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148   Owens}{2007}]{Evans}
+                            
+pdfTeX warning (ext4): destination with the same identifier (name{cite.facchett
+i2025}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.153 ...cchetti}{Facchetti}{2025}]{facchetti2025}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.gallup20
+23}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.159 ...oryear{Gallup}{Gallup}{2023}]{gallup2023}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Goncalve
+s_etal_2025}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.164   et~al.}{2025}]{Goncalves_etal_2025}
+                                           
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Levitt_1
+997}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.181 ...ryear{Levitt}{Levitt}{1997}]{Levitt_1997}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.MASTROBU
+ONI2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.187 ...oni}{Mastrobuoni}{2019}]{MASTROBUONI2019}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Mastrobu
+oni_2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 ...ni}{Mastrobuoni}{2020}]{Mastrobuoni_2020}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Reglamen
+toCarabineros1989}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.201   Chile}}{1989}]{ReglamentoCarabineros1989}
+                                                 
+pdfTeX warning (ext4): destination with the same identifier (name{cite.PCSP2014
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.207 ...r y Seguridad Pública}}{2014}]{PCSP2014}
+                                                   [129]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.NASEM201
+8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.214   Medicine}}{2018}]{NASEM2018}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ostrom19
+73}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.220   et~al.}{1973}]{ostrom1973}
+                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ostrom19
+78}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.227   et~al.}{1978}]{ostrom1978}
+                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.DIPRES20
+14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.233 ...z~V.}{Salas~P. et~al.}{2014}]{DIPRES2014}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.skogan19
+97comminuty}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.244   Hartnett}{1997}]{skogan1997comminuty}
+                                             
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Tobon}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.249 ...uthoryear{Tob\'on}{Tob\'on}{2021}]{Tobon}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Weisburd
+_restat}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.254 ...isburd}{Weisburd}{2021}]{Weisburd_restat}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.DIPRES20
+07_largo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.261   et~al.}{2007}]{DIPRES2007_largo}
+                                        ) (./bu2.aux)
+No file bu.aux.
+) [130] (./Parts/R2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+(./Parts/r2_01.tex (./bu3.aux)
+\openout4 = `bu3.aux'.
+
+ [131]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[132] (../manuscript/Edited sections/02_institutions.tex [133]
+(../manuscript/Figures/figure01_implementation.tex
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[134] [135]) [136
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+(../manuscript/Edited sections/04_04_drivers.tex [137]
+(../manuscript/Figures/figure_resources.tex
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [138] [139] (../manuscript/Figures/figure_resources2.tex
+File: ../manuscript/Graphs/results_SC_att_combined.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_SC_att_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_SC_att_combined.pdf  used
+ on input line 8.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off_sant
+iago.pdf  used on input line 14.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh_sant
+iago.pdf  used on input line 20.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+
+
+LaTeX Warning: Float too large for page by 45.11873pt on input line 27.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [140] [141] [142
+
+] (../manuscript/Figures/figure05_mechanisms.tex
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+) [143])
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[145] [146]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Overfull \hbox (4.77495pt too wide) in paragraph at lines 79--80
+[]\OT1/lmr/m/n/10.95 The re-sults pro-vide lit-tle sup-port for the hy-poth-e-s
+is that mu-nic-i-pal-i-ties with worse pre-treatment
+ []
+
+[147] [148] (../manuscript/Figures/figure02_results.tex
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [149
+
+]
+(../manuscript/Tables/Implementation.tex) [150
+
+]
+(../manuscript/Figures/figure_heterogeneity_appendix.tex
+File: ../manuscript/Graphs/heterogeneity_off_appendix.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/heterogeneity_off_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off_appendix.pdf  u
+sed on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/heterogeneity_pv_appendix.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv_appendix.pdf  us
+ed on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+) [151
+
+]
+(../manuscript/Tables/table_controlbyresources_csdid.tex) [152
+
+]
+(../manuscript/Figures/figureA5_SC.tex
+File: ../manuscript/Graphs/results_victimization_SC.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_victimization_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization_SC.pdf  use
+d on input line 9.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf Graphic file (t
+ype pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_SC.
+pdf  used on input line 15.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_SC.p
+df  used on input line 24.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/results_perception_SC.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception_SC.pdf  used o
+n input line 30.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures_SC.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures_SC.p
+df  used on input line 39.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+
+
+LaTeX Warning: Float too large for page by 45.47156pt on input line 49.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [153] (../manuscript/Figures/FigureA7B_corrnovariation.tex
+File: ../manuscript/Graphs/results_corr_novariation_off.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off.pdf 
+ used on input line 7.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh.pdf 
+ used on input line 12.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+) [154
+
+
+]
+(../manuscript/Tables/table_resourcecorrelates.tex) [155
+
+]
+(../manuscript/Figures/Police effectiveness correlations with PC year.tex
+File: ../manuscript/Graphs/balance_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/balance_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/balance_carabperc.pdf  used on in
+put line 7.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+File: ../manuscript/Graphs/doseresponse_carabperc.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/doseresponse_carabperc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/doseresponse_carabperc.pdf  used 
+on input line 13.
+(pdftex.def)             Requested size: 232.52643pt x 139.51717pt.
+)
+[156
+
+] (../manuscript/Figures/Admin Results Uncapped.tex
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_unc
+apped.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_unca
+pped.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [157
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+(./Parts/r2_02.tex (../manuscript/Figures/Map Plan Cuadrante.tex
+File: ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png Graphic file (type png
+)
+<use ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png>
+Package pdftex.def Info: ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png  us
+ed on input line 5.
+(pdftex.def)             Requested size: 469.75502pt x 273.96904pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [158
+
+] [159] (../manuscript/Tables/Table Comparing Samples.tex)
+(../manuscript/Figures/figure04_heterogeneity.tex
+<../manuscript/Graphs/results_het_density.pdf, id=3019, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/results_het_density.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_het_density.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_het_density.pdf  used on 
+input line 8.
+(pdftex.def)             Requested size: 230.18253pt x 153.45317pt.
+<../manuscript/Graphs/results_het_poorpop.pdf, id=3020, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/results_het_poorpop.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_het_poorpop.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_het_poorpop.pdf  used on 
+input line 13.
+(pdftex.def)             Requested size: 230.18253pt x 153.45317pt.
+<../manuscript/Graphs/results_het_SES.pdf, id=3021, 542.025pt x 361.35pt>
+File: ../manuscript/Graphs/results_het_SES.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_het_SES.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_het_SES.pdf  used on inpu
+t line 19.
+(pdftex.def)             Requested size: 230.18253pt x 153.45317pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Overfull \hbox (3.22295pt too wide) in paragraph at lines 42--43
+[]\OT1/lmr/m/n/10.95 Our em-pir-i-cal ap-proach ex-cludes always-treated mu-nic
+-i-pal-i-ties ([][]Call-away and Sant'Anna[][], [][]2021[][]).
+ []
+
+[160] [161 <../manuscript/Graphs/results_het_density.pdf> <../manuscript/Graphs
+/results_het_poorpop.pdf> <../manuscript/Graphs/results_het_SES.pdf>] [162]
+(../manuscript/Tables/table_descriptivetable_ENUSC.tex) [163]
+(../manuscript/Tables/table_descriptivetable_SPD.tex) [164
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+(./Parts/r2_03.tex [165
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+(../manuscript/Edited sections/04_02_spillovers.tex [166])
+(../manuscript/Edited sections/C6_spillover_effects.tex [167]) [168]
+(../manuscript/Figures/figure03_spillovers.tex
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_neighbors.pdf Graphic 
+file (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_nei
+ghbors.pdf  used on input line 8.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_neighbors.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_neig
+hbors.pdf  used on input line 13.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/dotpc_allcomunas_neighbors.pdf  u
+sed on input line 18.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/vehiclespc_allcomunas_neighbors.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/vehiclespc_allcomunas_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/vehiclespc_allcomunas_neighbors.p
+df  used on input line 23.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [169
+
+]
+(../manuscript/Figures/Spillovers with treatment intensity.tex
+File: ../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_crime.p
+df  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_arrests.pdf Graphic file (
+type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_arrests.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_arrests
+.pdf  used on input line 13.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_dotpc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc.p
+df  used on input line 21.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_vehicle
+spc.pdf  used on input line 27.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_crime_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_crime_c
+ount.pdf  used on input line 44.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf Graphic 
+file (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_arrests_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_arrests
+_count.pdf  used on input line 50.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc_count.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_dotpc_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_dotpc_c
+ount.pdf  used on input line 58.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc_count.pdf Graph
+ic file (type pdf)
+<use ../manuscript/Graphs/CHDH_continuous_spillover_vehiclespc_count.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_continuous_spillover_vehicle
+spc_count.pdf  used on input line 64.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [170
+
+] [171] (../manuscript/Figures/Permutations Analysis.tex
+File: ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_crime.pdf  used o
+n input line 7.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_arrests.pdf  used
+ on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_crime_spillover.p
+df  used on input line 21.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover.pdf Graphic file (
+type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_arrests_spillover
+.pdf  used on input line 27.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [172
+
+]
+(../manuscript/Figures/Spillovers with ENUSC sample.tex
+File: ../manuscript/Graphs/totalreportedcrime_enusc47_neighbors.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_enusc47_neighb
+ors.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_enusc47_neighbors.pdf Graphic file
+ (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_enusc47_neighbo
+rs.pdf  used on input line 13.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/dotpc_enusc47_neighbors.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/dotpc_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/dotpc_enusc47_neighbors.pdf  used
+ on input line 21.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/vehiclespc_enusc47_neighbors.pdf 
+ used on input line 27.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/results_spillover_delitos.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/results_spillover_delitos.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_delitos.pdf  us
+ed on input line 43.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/results_spillover_inseguridad_barrio1.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_spillover_inseguridad_barrio1.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_inseguridad_bar
+rio1.pdf  used on input line 49.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/results_spillover_confianza_carabineros.pdf Graphic 
+file (type pdf)
+<use ../manuscript/Graphs/results_spillover_confianza_carabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_confianza_carab
+ineros.pdf  used on input line 55.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/results_spillover_medidas_general_12.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/results_spillover_medidas_general_12.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_spillover_medidas_general
+_12.pdf  used on input line 61.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [173
+
+] [174])
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+(./Parts/r2_04.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+(./Parts/r2_05.tex [175
+
+] [176]
+(../manuscript/Edited sections/02_institutions.tex [177]
+(../manuscript/Figures/figure01_implementation.tex
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[178] [179]) [180
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+(../manuscript/Edited sections/04_04_drivers.tex [181]
+(../manuscript/Figures/figure_resources.tex
+File: ../manuscript/Graphs/fig4_officers.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_officers.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_officers.pdf  used on input 
+line 10.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/fig4_patrols.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/fig4_patrols.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/fig4_patrols.pdf  used on input l
+ine 17.
+(pdftex.def)             Requested size: 225.4804pt x 150.32137pt.
+File: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/increase_enusc_off_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_off_quintiles.pdf 
+ used on input line 24.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf Graphic file (type p
+df)
+<use ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/increase_enusc_pv_quintiles.pdf  
+used on input line 31.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_off.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_off.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_off.pdf  used on in
+put line 38.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+File: ../manuscript/Graphs/heterogeneity_pv.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/heterogeneity_pv.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/heterogeneity_pv.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 225.4804pt x 135.28922pt.
+
+Overfull \hbox (5.2058pt too wide) in paragraph at lines 7--54
+ [][] 
+ []
+
+) [182] [183] (../manuscript/Figures/figure_resources2.tex
+File: ../manuscript/Graphs/results_SC_att_combined.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_SC_att_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_SC_att_combined.pdf  used
+ on input line 8.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_off_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_off_sant
+iago.pdf  used on input line 14.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+File: ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/results_corr_novariation_veh_santiago.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_corr_novariation_veh_sant
+iago.pdf  used on input line 20.
+(pdftex.def)             Requested size: 258.36668pt x 172.24954pt.
+
+
+LaTeX Warning: Float too large for page by 45.11873pt on input line 27.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [184] [185] [186
+
+] (../manuscript/Figures/figure05_mechanisms.tex
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+) [187])
+[188]
+Overfull \hbox (4.77495pt too wide) in paragraph at lines 32--33
+[]\OT1/lmr/m/n/10.95 The re-sults pro-vide lit-tle sup-port for the hy-poth-e-s
+is that mu-nic-i-pal-i-ties with worse pre-treatment
+ []
+
+[189] (../manuscript/Figures/figure02_results.tex
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [190
+
+]
+(../manuscript/Tables/table_resourcecorrelates.tex) [191
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+(./Parts/r2_06.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+(./Parts/r2_07.tex [192
+
+]
+Overfull \hbox (2.85632pt too wide) in paragraph at lines 12--13
+[]\OT1/lmr/m/n/10.95 Below we re-pro-duce the rel-e-vant pas-sages from Sec-tio
+n 2 and Ap-pendix A of the up-dated manuscript,
+ []
+
+[193] [194] (../manuscript/Figures/figure01_implementation.tex
+File: ../manuscript/Graphs/Graph_PCvariation.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/Graph_PCvariation.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCvariation.pdf  used on in
+put line 8.
+(pdftex.def)             Requested size: 272.45877pt x 163.48047pt.
+File: ../manuscript/Graphs/Graph_PCexample_combined.png Graphic file (type png)
+
+<use ../manuscript/Graphs/Graph_PCexample_combined.png>
+Package pdftex.def Info: ../manuscript/Graphs/Graph_PCexample_combined.png  use
+d on input line 14.
+(pdftex.def)             Requested size: 305.33789pt x 178.11395pt.
+ [195
+
+])
+(../manuscript/Figures/figure02_results.tex
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [196
+
+
+]
+(../manuscript/Tables/Implementation.tex) [197
+
+]
+(../manuscript/Tables/table_descriptivetable_ENUSC.tex) [198
+
+]
+(../manuscript/Tables/table_descriptivetable_SPD.tex) [199
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+(./Parts/r2_08.tex [200
+
+]
+Overfull \hbox (3.22295pt too wide) in paragraph at lines 18--19
+[]\OT1/lmr/m/n/10.95 Our em-pir-i-cal ap-proach ex-cludes always-treated mu-nic
+-i-pal-i-ties ([][]Call-away and Sant'Anna[][], [][]2021[][]).
+ []
+
+[201] [202] (../manuscript/Tables/table_descriptivetable_ENUSC.tex) [203
+
+]
+(../manuscript/Tables/table_descriptivetable_SPD.tex) [204
+
+]
+(../manuscript/Figures/Map Plan Cuadrante.tex
+File: ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png Graphic file (type png
+)
+<use ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png>
+Package pdftex.def Info: ../manuscript/Graphs/mapa_PCSP_Chile_combinado.png  us
+ed on input line 5.
+(pdftex.def)             Requested size: 469.75502pt x 273.96904pt.
+) [205
+
+]
+(../manuscript/Tables/Table Comparing Samples.tex) [206
+
+]
+(../manuscript/Figures/Admin Results Uncapped.tex
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf Graphic f
+ile (type pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas_unc
+apped.pdf  used on input line 7.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas_uncapped.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas_unca
+pped.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.8749pt x 151.91483pt.
+) [207
+
+]
+(../manuscript/Figures/FigureA6_balancedpanel.tex
+<../manuscript/Graphs/results_crime_balanced_combined.pdf, id=3538, 542.025pt x
+ 361.35pt>
+File: ../manuscript/Graphs/results_crime_balanced_combined.pdf Graphic file (ty
+pe pdf)
+<use ../manuscript/Graphs/results_crime_balanced_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_crime_balanced_combined.p
+df  used on input line 5.
+(pdftex.def)             Requested size: 375.80544pt x 250.5448pt.
+) [208
+
+ <../manuscript/Graphs/results_crime_balanced_combined.pdf>])
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+(./Parts/r2_09.tex [209
+
+] (../manuscript/Figures/figureA2_othermethods.tex
+<../manuscript/Graphs/Comparison_estimators_combined.pdf, id=3590, 650.43pt x 3
+61.35pt>
+File: ../manuscript/Graphs/Comparison_estimators_combined.pdf Graphic file (typ
+e pdf)
+<use ../manuscript/Graphs/Comparison_estimators_combined.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/Comparison_estimators_combined.pd
+f  used on input line 5.
+(pdftex.def)             Requested size: 469.75502pt x 260.98232pt.
+)
+[210
+
+ <../manuscript/Graphs/Comparison_estimators_combined.pdf>]
+(../manuscript/Figures/Alternative estimators.tex
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_event_study_delitos.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/CHDH_event_study_delitos.pdf, id=3606, 542.025pt x 361.35
+pt>
+File: ../manuscript/Graphs/CHDH_event_study_delitos.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/CHDH_event_study_delitos.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_event_study_delitos.pdf  use
+d on input line 21.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/DID2S_event_study_delitos.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/DID2S_event_study_delitos.pdf, id=3607, 542.025pt x 361.3
+5pt>
+File: ../manuscript/Graphs/DID2S_event_study_delitos.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/DID2S_event_study_delitos.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/DID2S_event_study_delitos.pdf  us
+ed on input line 26.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/JWDID_event_study_delitos.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/JWDID_event_study_delitos.pdf, id=3608, 542.025pt x 361.3
+5pt>
+File: ../manuscript/Graphs/JWDID_event_study_delitos.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/JWDID_event_study_delitos.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/JWDID_event_study_delitos.pdf  us
+ed on input line 32.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_event_study_insegurida
+d_barrio1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.
+5> allowed
+<../manuscript/Graphs/CHDH_event_study_inseguridad_barrio1.pdf, id=3615, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_event_study_inseguridad_barrio1.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/CHDH_event_study_inseguridad_barrio1.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_event_study_inseguridad_barr
+io1.pdf  used on input line 49.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/DID2S_event_study_insegurid
+ad_barrio1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<../manuscript/Graphs/DID2S_event_study_inseguridad_barrio1.pdf, id=3616, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/DID2S_event_study_inseguridad_barrio1.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/DID2S_event_study_inseguridad_barrio1.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/DID2S_event_study_inseguridad_bar
+rio1.pdf  used on input line 54.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/JWDID_event_study_insegurid
+ad_barrio1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<../manuscript/Graphs/JWDID_event_study_inseguridad_barrio1.pdf, id=3617, 542.0
+25pt x 361.35pt>
+File: ../manuscript/Graphs/JWDID_event_study_inseguridad_barrio1.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/JWDID_event_study_inseguridad_barrio1.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/JWDID_event_study_inseguridad_bar
+rio1.pdf  used on input line 60.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_event_study_medidas_ge
+neral_12.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../manuscript/Graphs/CHDH_event_study_medidas_general_12.pdf, id=3624, 542.025
+pt x 361.35pt>
+File: ../manuscript/Graphs/CHDH_event_study_medidas_general_12.pdf Graphic file
+ (type pdf)
+<use ../manuscript/Graphs/CHDH_event_study_medidas_general_12.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_event_study_medidas_general_
+12.pdf  used on input line 77.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/DID2S_event_study_medidas_g
+eneral_12.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.
+5> allowed
+<../manuscript/Graphs/DID2S_event_study_medidas_general_12.pdf, id=3625, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/DID2S_event_study_medidas_general_12.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/DID2S_event_study_medidas_general_12.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/DID2S_event_study_medidas_general
+_12.pdf  used on input line 82.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/JWDID_event_study_medidas_g
+eneral_12.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.
+5> allowed
+<../manuscript/Graphs/JWDID_event_study_medidas_general_12.pdf, id=3626, 542.02
+5pt x 361.35pt>
+File: ../manuscript/Graphs/JWDID_event_study_medidas_general_12.pdf Graphic fil
+e (type pdf)
+<use ../manuscript/Graphs/JWDID_event_study_medidas_general_12.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/JWDID_event_study_medidas_general
+_12.pdf  used on input line 88.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/CHDH_event_study_crime.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/CHDH_event_study_crime.pdf, id=3633, 542.025pt x 361.35pt
+>
+File: ../manuscript/Graphs/CHDH_event_study_crime.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/CHDH_event_study_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_event_study_crime.pdf  used 
+on input line 110.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/DID2S_event_study_crime.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/DID2S_event_study_crime.pdf, id=3634, 542.025pt x 361.35p
+t>
+File: ../manuscript/Graphs/DID2S_event_study_crime.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/DID2S_event_study_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/DID2S_event_study_crime.pdf  used
+ on input line 115.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/JWDID_event_study_crime.pdf
+): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/JWDID_event_study_crime.pdf, id=3635, 542.025pt x 361.35p
+t>
+File: ../manuscript/Graphs/JWDID_event_study_crime.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/JWDID_event_study_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/JWDID_event_study_crime.pdf  used
+ on input line 121.
+(pdftex.def)             Requested size: 220.78543pt x 147.18954pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [211
+
+ <../manuscript/Graphs/CHDH_event_study_delitos.pdf> <../manuscript/Graphs/DID2
+S_event_study_delitos.pdf> <../manuscript/Graphs/JWDID_event_study_delitos.pdf>
+] [212 <../manuscript/Graphs/CHDH_event_study_inseguridad_barrio1.pdf> <../manu
+script/Graphs/DID2S_event_study_inseguridad_barrio1.pdf> <../manuscript/Graphs/
+JWDID_event_study_inseguridad_barrio1.pdf>] [213 <../manuscript/Graphs/CHDH_eve
+nt_study_medidas_general_12.pdf> <../manuscript/Graphs/DID2S_event_study_medida
+s_general_12.pdf> <../manuscript/Graphs/JWDID_event_study_medidas_general_12.pd
+f>] [214 <../manuscript/Graphs/CHDH_event_study_crime.pdf> <../manuscript/Graph
+s/DID2S_event_study_crime.pdf> <../manuscript/Graphs/JWDID_event_study_crime.pd
+f>])
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+(./Parts/r2_10.tex [215
+
+] (../manuscript/Figures/figure02_results.tex
+File: ../manuscript/Graphs/results_victimization.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_victimization.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_victimization.pdf  used o
+n input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf Graphic file (type
+ pdf)
+<use ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_allcomunas.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_perception.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_perception.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_perception.pdf  used on i
+nput line 19.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+File: ../manuscript/Graphs/results_hhprotectionmeasures.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/results_hhprotectionmeasures.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_hhprotectionmeasures.pdf 
+ used on input line 25.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [216
+
+]
+(../manuscript/Tables/Bonferroni.tex) [217
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+(./Parts/r2_11.tex [218
+
+] (../manuscript/Tables/Results_SPD_N47.tex) [219
+
+]
+(../manuscript/Figures/figure02_resultsN47.tex
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/totalreportedcrime_47enusc.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../manuscript/Graphs/totalreportedcrime_47enusc.pdf, id=4099, 542.025pt x 361.
+35pt>
+File: ../manuscript/Graphs/totalreportedcrime_47enusc.pdf Graphic file (type pd
+f)
+<use ../manuscript/Graphs/totalreportedcrime_47enusc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalreportedcrime_47enusc.pdf  u
+sed on input line 8.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+pdfTeX warning: pdflatex (file ../manuscript/Graphs/totalarrestscrime_47enusc.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../manuscript/Graphs/totalarrestscrime_47enusc.pdf, id=4100, 542.025pt x 361.3
+5pt>
+File: ../manuscript/Graphs/totalarrestscrime_47enusc.pdf Graphic file (type pdf
+)
+<use ../manuscript/Graphs/totalarrestscrime_47enusc.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_47enusc.pdf  us
+ed on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+) [220
+
+ <../manuscript/Graphs/totalreportedcrime_47enusc.pdf> <../manuscript/Graphs/to
+talarrestscrime_47enusc.pdf>])
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+(./Parts/r2_12.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+(./Parts/r2_13.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+(./Parts/r2_14.tex [221
+
+] (../manuscript/Figures/figure05_mechanisms.tex
+File: ../manuscript/Graphs/results_policepresence.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/results_policepresence.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_policepresence.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/combined_PCttest_2.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/combined_PCttest_2.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/combined_PCttest_2.pdf  used on i
+nput line 15.
+(pdftex.def)             Requested size: 206.69334pt x 124.01471pt.
+File: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf Graphic file (type 
+pdf)
+<use ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/totalarrestscrime_allcomunas.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf Graphic fi
+le (type pdf)
+<use ../manuscript/Graphs/arrests_over_reportedcrime_allcomunas.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/arrests_over_reportedcrime_allcom
+unas.pdf  used on input line 26.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+File: ../manuscript/Graphs/results_trustcarabineros.pdf Graphic file (type pdf)
+
+<use ../manuscript/Graphs/results_trustcarabineros.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/results_trustcarabineros.pdf  use
+d on input line 32.
+(pdftex.def)             Requested size: 206.69334pt x 137.79411pt.
+)
+[222
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+(./Parts/r2_15.tex) (./bu3.bbl
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Ajzenman
+_Pato}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4   et~al.}{2023}]{Ajzenman_Pato}
+                                   
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Ley18961
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 ...greso Nacional de Chile}}{1990}]{Ley18961}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blanes_M
+astrobuoni_2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 ...strobuoni}{2018}]{Blanes_Mastrobuoni_2018}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blattman
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25   et~al.}{2021a}]{Blattman}
+                                
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blattman
+_Tobon_JEEA}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33   et~al.}{2021b}]{Blattman_Tobon_JEEA}
+                                           
+pdfTeX warning (ext4): destination with the same identifier (name{cite.SR_1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41   Hureau}{Braga et~al.}{2019}]{SR_1}
+                                         
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Callaway
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47   Sant’Anna}{2021}]{Callaway}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Manual_C
+arabineros2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53   Chile}}{2018}]{Manual_Carabineros2018}
+                                              [223
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Chaisema
+rtin}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61   and D'Haultfœuille}{2020}]{Chaisemartin}
+                                                
+pdfTeX warning (ext4): destination with the same identifier (name{cite.cordner1
+995community}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 ...ner}{Cordner}{1995}]{cordner1995community}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.crepon20
+13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 ...ora}{Cr{\'e}pon et~al.}{2013}]{crepon2013}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Evans}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81   Owens}{2007}]{Evans}
+                           
+pdfTeX warning (ext4): destination with the same identifier (name{cite.SINIM}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92   Chile}}{2024}]{SINIM}
+                            
+pdfTeX warning (ext4): destination with the same identifier (name{cite.GoodmanB
+acon}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 ...Bacon}{Goodman-Bacon}{2021}]{GoodmanBacon}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Langella
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105   et~al.}{2023}]{Langella}
+                                
+pdfTeX warning (ext4): destination with the same identifier (name{cite.MASTROBU
+ONI2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 ...oni}{Mastrobuoni}{2019}]{MASTROBUONI2019}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Reglamen
+toCarabineros1989}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118   Chile}}{1989}]{ReglamentoCarabineros1989}
+                                                 
+pdfTeX warning (ext4): destination with the same identifier (name{cite.PCSP2014
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 ...r y Seguridad Pública}}{2014}]{PCSP2014}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.NASEM201
+8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.131   Medicine}}{2018}]{NASEM2018}
+                                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ostrom19
+73}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137   et~al.}{1973}]{ostrom1973}
+                                   [224]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.ostrom19
+78}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144   et~al.}{1978}]{ostrom1978}
+                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.DIPRES20
+14}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156 ...z~V.}{Salas~P. et~al.}{2014}]{DIPRES2014}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.skogan19
+97comminuty}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.167   Hartnett}{1997}]{skogan1997comminuty}
+                                             
+pdfTeX warning (ext4): destination with the same identifier (name{cite.DIPRES20
+07_largo}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.173   et~al.}{2007}]{DIPRES2007_largo}
+                                        ) (./bu3.aux)
+No file bu.aux.
+) [225] (./Parts/R3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+(./Parts/r3_01.tex)) [226] (./Response_All.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Response_All.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 32314 strings out of 478268
+ 669684 string characters out of 5846347
+ 865098 words of memory out of 5000000
+ 48964 multiletter control sequences out of 15000+600000
+ 532097 words of font info for 80 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,14n,120p,2986b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/
+2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-di
+st/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dist/fonts/e
+nc/dvips/lm/lm-rm.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm
+/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/l
+m/lmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Response_All.pdf (226 pages, 5192263 bytes).
+PDF statistics:
+ 4414 PDF objects out of 5155 (max. 8388607)
+ 3730 compressed objects within 38 object streams
+ 516 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+

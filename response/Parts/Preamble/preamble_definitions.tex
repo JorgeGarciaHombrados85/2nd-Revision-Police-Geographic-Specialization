@@ -1,0 +1,74 @@
+\newcounter{TotalComments}\newcounter{AnsweredComments}
+\newcounter{Ref}
+\newcounter{RefComment}
+
+
+
+\newenvironment{refcomment}{
+  \stepcounter{RefComment}
+  \setstretch{0.8}
+  \vspace{0.7cm}
+\sffamily \textbf{Comment R\arabic{Ref}.\arabic{RefComment} \\}
+}
+
+\newenvironment{editorcomment}{
+  \stepcounter{RefComment}
+  \setstretch{0.8}
+  \vspace{0.7cm}
+\sffamily \textbf{Editor Comment \arabic{RefComment} \\}
+}
+
+
+%\newenvironment{refcomment}{
+%\begin{flushleft}
+%\stepcounter{RefComment}\medskip
+%\end{flushleft}
+%\begin{spacing}{0.7}
+%\noindent \color{darkdarkgray}\ttfamily\textbf{Comment R\arabic{Ref}.\arabic{RefComment}}\smallskip \noindent}
+%{\end{spacing}
+%}
+
+
+%\newenvironment{editorcomment}{
+%\begin{flushleft}
+%\stepcounter{RefComment}\smallskip
+%\end{flushleft}
+%\begin{spacing}{0.7}
+%\noindent\color{darkdarkgray}\ttfamily\textbf{Editor Comment \arabic{RefComment}}\smallskip \noindent}
+%{\end{spacing}
+%}
+
+
+\newenvironment{response}{
+\begin{spacing}{1}
+\begin{flushleft}
+\end{flushleft}
+\noindent\color{darkdarkgray} \textbf{Response to R\arabic{Ref}.\arabic{RefComment}:\\}\smallskip
+\noindent
+}
+{
+\end{spacing}
+}
+
+\newenvironment{editorresponse}{
+\begin{spacing}{1}
+\begin{flushleft}
+\end{flushleft}
+\noindent\color{darkdarkgray} \textbf{Response to Editor Comment \arabic{RefComment}:\\}\smallskip \noindent
+}
+{
+\end{spacing}
+}
+
+\newenvironment{introresponse}{
+\begin{spacing}{1}
+\begin{flushleft}
+\end{flushleft}
+\noindent\color{darkdarkgray}\noindent
+}
+{
+\end{spacing}
+}
+
+\setcounter{RefComment}{0}\setcounter{TotalComments}{0}\setcounter{AnsweredComments}{0}
+ \setcounter{Ref}{1}

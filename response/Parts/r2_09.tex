@@ -1,0 +1,33 @@
+%3. Although I appreciate the robustness check to the various difference-in-differences estimators presented in Appendix B, it would be more reassuring to see the event studies.
+
+Thank you very much for the suggestion. In the revised manuscript, we have expanded the ``Alternative Estimation Methods'' subsection of Appendix \ref{sec:appendixC} to include event-study plots for all main outcomes under each alternative estimator. We have also added a sentence in the Empirical Strategy section noting that the event studies using these staggered difference-in-differences estimators confirm flat pre-adoption trends under all estimation methods.
+
+We reproduce this sentence from the Empirical Strategy section below:
+
+\begin{adjustwidth}{2em}{0em}
+Online Appendix Figure \ref{fig:figureA2_alterestim} shows robustness to alternative estimators, including those developed by \citet{Chaisemartin, Gardner, wooldridge2023simple}, as well as to the canonical two-way fixed effects (TWFE) estimator. The resulting estimates are remarkably similar across the alternative staggered-adoption estimators, except for the canonical TWFE, which shows attenuated effects, arguably driven by the negative weights problem discussed above \citep{GoodmanBacon}. The corresponding event studies, reported in Online Appendix Figures \ref{fig:alterestim_delitos}, \ref{fig:alterestim_inseguridad}, \ref{fig:alterestim_medidas}, and \ref{fig:alterestim_crime}, confirm that pre-adoption trends are flat under each alternative estimator.
+\end{adjustwidth}
+
+We also reproduce below the expanded ``Alternative Estimation Methods'' subsection of Online Appendix C:
+
+\begin{adjustwidth}{2em}{0em}
+The results reported in Section \ref{main_results} are estimated using the difference-in-differences estimator for staggered treatment adoption developed in \citet{Callaway}. In this subsection, we examine the robustness of the results to the use of alternative difference-in-difference estimators for staggered treatment adoption including those developed in \citet{Chaisemartin}, \citet{Gardner}, \citet{wooldridge2023simple}, and also to the canonical two-way fixed effects (TWFE).
+
+The results of these analyses are reported in Figure \ref{fig:figureA2_alterestim} and show similar effects of \emph{Plan Cuadrante} in terms of both magnitude and statistical significance across most specifications. On the other hand, the canonical TWFE shows smaller effects, likely due to the negative weights problem highlighted by \citet{GoodmanBacon} when estimating difference-in-differences with staggered treatment adoption using TWFE.
+
+Figures \ref{fig:alterestim_delitos} through \ref{fig:alterestim_crime} report the corresponding event-study estimates for victimization, crime perception, investment in security measures, and reported crime under each alternative estimator. Pre-treatment coefficients are consistently small and statistically indistinguishable from zero across all estimators and outcomes, confirming that the parallel trends assumption holds regardless of the estimation method. Post-treatment effects remain negative and statistically significant across these outcomes, closely mirroring the results from the main specification in Figure \ref{fig:figure02}.
+\end{adjustwidth}
+
+\clearpage
+\noindent\textbf{Other figures referenced above:}
+\vspace{0.5em}
+
+{\renewcommand{\thefigure}{C.2}
+\input{../manuscript/Figures/figureA2_othermethods.tex}}
+
+\clearpage
+
+{\setcounter{figure}{2}\renewcommand{\thefigure}{C.\arabic{figure}}
+\input{../manuscript/Figures/Alternative estimators.tex}}
+
+\clearpage

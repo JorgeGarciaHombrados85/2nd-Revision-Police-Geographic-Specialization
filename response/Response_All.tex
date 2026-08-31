@@ -1,0 +1,104 @@
+\documentclass[11pt,english]{article}
+\usepackage{amssymb}
+
+\input{Parts/Preamble/preamble_Response.tex}
+\begin{document}
+
+\input{Parts/Preamble/preamble_definitions}
+
+% The quoted manuscript excerpts reproduced throughout this response document
+% internally cross-reference section, appendix, and equation numbers defined
+% only in 00_main.tex (not in the "Edited sections" files themselves). The
+% labels below manually plant those numbers so that \ref calls inside the
+% reproduced excerpts resolve correctly, matching manuscript/00_main.aux.
+% (\@currentlabel has a "@" in its name, so \makeatletter is required for
+% \def\@currentlabel{...} to actually redefine it rather than being parsed
+% as the control symbol \@ followed by literal text.)
+\makeatletter
+{\def\@currentlabel{1}\label{introduction}}
+{\def\@currentlabel{2}\label{institutions}}
+{\def\@currentlabel{3}\label{identification}}
+{\def\@currentlabel{1}\label{eq:main}}
+{\def\@currentlabel{4}\label{results}}
+{\def\@currentlabel{4.1}\label{main_results}}
+{\def\@currentlabel{4.2}\label{sec:spillovers}}
+{\def\@currentlabel{4.3}\label{heterogeneity}}
+{\def\@currentlabel{4.4}\label{mechanisms}}
+{\def\@currentlabel{5}\label{conclusions}}
+{\def\@currentlabel{A}\label{sec:appendixA}}
+{\def\@currentlabel{B}\label{sec:appendixB}}
+{\def\@currentlabel{B.4}\label{resources_plan_cuadrante}}
+{\def\@currentlabel{C}\label{sec:appendixC}}
+{\def\@currentlabel{C.4}\label{sec:admin_uncapped}}
+{\def\@currentlabel{C.5}\label{sec:bonferroni}}
+{\def\@currentlabel{C.8}\label{sec:earthquake}}
+\makeatother
+
+\doublespacing
+\begin{flushright}
+\today \\[24pt]
+\end{flushright}
+
+\vspace{1em}
+
+\noindent \textbf{Prof. Roland Rathelot}\\
+Editor \\
+\textit{The Economic Journal}
+
+\vspace{0.5em}
+
+\noindent \textbf{Subject:} Revision of ``Boots in the Beat: Effects of Beat Policing on Victimization and Crime Perception''
+
+\vspace{1.5em}
+
+Dear Prof. Rathelot,
+
+Thank you for inviting us to revise and resubmit our manuscript. We carefully read your comments and the comments from the three referees. We are very grateful for this detailed and constructive feedback, which helped us improve the paper substantially.
+
+Below we provide a point-by-point response document with detailed answers to each comment. We also indicate how the manuscript has been revised in response.
+
+\vspace{1em}
+
+Sincerely,\\[0.5em]
+
+Andr\'es Barrios Fern\'andez on behalf of the team
+\clearpage 
+
+% Editor
+\section*{Editor's comments}
+\input{Parts/Editor.tex}
+\addtocounter{TotalComments}{\value{RefComment}}
+\FloatBarrier
+
+
+% R1 
+\newpage \setcounter{Ref}{1}\setcounter{RefComment}{0}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+
+\section*{Referee 1 Suggestions, Comments and Questions }
+\input{Parts/R1.tex}
+\addtocounter{TotalComments}{\value{RefComment}}
+\FloatBarrier
+
+% R2 
+\newpage \setcounter{Ref}{2} \setcounter{RefComment}{0}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\section*{Referee 2 Suggestions, Comments and Questions }
+\input{Parts/R2.tex}
+\addtocounter{TotalComments}{\value{RefComment}}
+\FloatBarrier
+
+% R3
+\newpage \setcounter{Ref}{3} \setcounter{RefComment}{0}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\section*{Referee 3 Suggestions, Comments and Questions }
+\input{Parts/R3.tex}
+\addtocounter{TotalComments}{\value{RefComment}}
+\FloatBarrier
+
+
+ \end{document}
+

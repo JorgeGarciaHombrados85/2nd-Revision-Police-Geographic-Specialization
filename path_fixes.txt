@@ -1,0 +1,192 @@
+PATH FIXES NEEDED IN MANUSCRIPT LaTeX FILES
+============================================
+Date: June 23, 2026
+Repository: Revision-Police-Geographic-Specialization
+Manuscript root: manuscript/
+
+All fixes are prefix replacements — no content changes needed.
+There are THREE old path prefixes to replace and ONE new prefix to use for each.
+
+=============================================================
+RULE 1: In ALL files — replace \input{Parts/Figures/...}
+         with     \input{Figures/...}
+=============================================================
+
+  File: Edited sections/04_02_spillovers.tex
+    Line 15:  \input{Parts/Figures/figure03_spillovers.tex}
+    Fix:      \input{Figures/figure03_spillovers.tex}
+
+
+=============================================================
+RULE 2: In ALL files — replace \input{00_draft/02_figures/...}
+         with     \input{Figures/...}
+=============================================================
+
+  File: Edited sections/B_robustness_checks.tex
+    Line 10:  \input{00_draft/02_figures/figureA2_othermethods}
+    Line 21:  \input{00_draft/02_figures/figure02_resultsN47}
+    Line 28:  \input{00_draft/02_figures/FigureA6_balancedpanel}
+    Line 45:  \input{00_draft/02_figures/figure03_spillovers}
+    Line 52:  \input{00_draft/02_figures/figureA3_otherpreceptions}
+    Line 61:  \input{00_draft/02_figures/FigureA9_placebo}
+
+  File: Edited sections/C_additional_results.tex
+    Line  7:  \input{00_draft/02_figures/FigureA8_typecrimes}
+    Line 41:  \input{00_draft/02_figures/figure_predicted_policepresence}
+    Line 74:  \input{00_draft/02_figures/FigureA7B_corrnovariation}
+    Line 76:  \input{00_draft/02_figures/FigureA7_corrnovariation}
+    Line 78:  \input{00_draft/02_figures/figureA5_SC}
+
+
+=============================================================
+RULE 3: In ALL figure .tex files — replace \includegraphics{Parts/Graphs/...}
+         with     \includegraphics{Graphs/...}
+=============================================================
+
+  File: Figures/Admin Results Uncapped.tex
+    Lines 7, 12: Parts/Graphs/totalreportedcrime_allcomunas_uncapped.pdf
+                 Parts/Graphs/totalarrestscrime_allcomunas_uncapped.pdf
+
+  File: Figures/Alternative estimators.tex  (20 occurrences)
+    Lines 22, 27, 33, 38:  CHDH/TWFE/DID2S/JWDID_event_study_delitos.pdf
+    Lines 55, 60, 66, 71:  CHDH/TWFE/DID2S/JWDID_event_study_confianza_carabineros.pdf
+    Lines 88, 93, 99, 104: CHDH/TWFE/DID2S/JWDID_event_study_inseguridad_barrio1.pdf
+    Lines 121,126,132,137: CHDH/TWFE/DID2S/JWDID_event_study_medidas_general_12.pdf
+    Lines 159,164,170,175: CHDH/TWFE/DID2S/JWDID_event_study_crime.pdf
+    Lines 192,197,203,208: CHDH/TWFE/DID2S/JWDID_event_study_arrests.pdf
+
+  File: Figures/Map Plan Cuadrante.tex
+    Line  8: Parts/Graphs/mapa_PCSP_Chile_nacional.pdf
+    Line 15: Parts/Graphs/mapa_PCSP_Chile_regiones.png
+
+  File: Figures/Permutations Analysis.tex
+    Lines 7, 14, 21, 27: CHDH_RI_placebo_crime/arrests/crime_spillover/arrests_spillover.pdf
+
+  File: Figures/Police Clearence.tex
+    Line 5: Parts/Graphs/arrests_over_reportedcrime_allcomunas.pdf
+
+  File: Figures/Police effectiveness correlations with PC year.tex
+    Lines 7, 13, 19, 25: balance_policepresence/carabperc, doseresponse_policepresence/carabperc.pdf
+
+  File: Figures/Robustness Earthquake.tex
+    Lines 8, 14, 19, 25, 30, 36:
+      results_victimization_noEQ.pdf, totalreportedcrime_allcomunas_noEQ.pdf,
+      totalarrestscrime_allcomunas_noEQ.pdf, results_trustcarabineros_noEQ.pdf,
+      results_perception_noEQ.pdf, results_hhprotectionmeasures_noEQ.pdf
+
+  File: Figures/Spillovers with ENUSC sample.tex
+    Lines 7, 13, 21, 27, 43, 49, 55, 61:
+      totalreportedcrime_enusc47_neighbors.pdf, totalarrestscrime_enusc47_neighbors.pdf,
+      dotpc_enusc47_neighbors.pdf, vehiclespc_enusc47_neighbors.pdf,
+      results_spillover_delitos/inseguridad_barrio1/confianza_carabineros/medidas_general_12.pdf
+
+  File: Figures/Spillovers with treatment intensity.tex
+    Lines 7, 13, 21, 27, 44, 50, 58, 64:
+      CHDH_continuous_spillover_crime/arrests/dotpc/vehiclespc.pdf (and _count variants)
+
+  File: Figures/figure03_spillovers.tex
+    Lines 18, 23: Parts/Graphs/dotpc_allcomunas_neighbors.pdf
+                  Parts/Graphs/vehiclespc_allcomunas_neighbors.pdf
+
+
+=============================================================
+RULE 4: In ALL figure .tex files — replace \includegraphics{00_draft/02_figures/...}
+         with     \includegraphics{Graphs/...}
+         NOTE: These PDFs must also be ADDED to the manuscript/Graphs/ folder.
+               The current Graphs/ folder does not contain most of these files.
+=============================================================
+
+  File: Figures/Figure06_policepresence.tex
+    Lines 7, 13: combined_PCttest_2.pdf, results_policepresence.pdf
+
+  File: Figures/FigureA6_balancedpanel.tex
+    Lines 7, 12: results_crime_balanced_enusc.pdf, results_crime_balanced_spd.pdf
+
+  File: Figures/FigureA7_corrnovariation.tex
+    Lines 7, 13, 18, 24: results_carabineros_corr_novariation_enusc/spd.pdf,
+                          results_vehicles_corr_novariation_enusc/spd.pdf
+
+  File: Figures/FigureA7B_corrnovariation.tex
+    Lines 7, 13, 18, 24: results_carabineros/vehicles_corr_santiago_novariation_enusc/spd.pdf
+
+  File: Figures/FigureA8_typecrimes.tex
+    Lines 7, 12: results_typeofcrimes_ENUSC.pdf, results_typeofcrimes_SPD.pdf
+
+  File: Figures/FigureA9_placebo.tex
+    Lines 7, 12: results_sexualabuse.pdf, results_sexualabuse2.pdf
+
+  File: Figures/figure01_implementation.tex
+    Lines 8, 14: Graph_PCexample_combined.pdf, Graph_PCvariation.pdf
+
+  File: Figures/figure02_results.tex
+    Lines 8, 14, 19, 25, 30, 36:
+      results_victimization.pdf, totalreportedcrime_allcomunas.pdf,
+      totalarrests_allcomunas.pdf, results_trustcarabineros_modified.pdf,
+      results_perception.pdf, results_hhprotectionmeasures.pdf
+
+  File: Figures/figure02_resultsN47.tex
+    Lines 8, 14: totalreportedcrime_47enusc.pdf, totalarrestscrime_47enusc.pdf
+
+  File: Figures/figure03_spillovers.tex
+    Lines 8, 13: totalreportedcrime_allcomunas_neighbors.pdf,
+                 totalarrestscrime_allcomunas_neighbors.pdf
+
+  File: Figures/figure04_heterogeneity.tex
+    Lines 8, 14, 20, 26, 32: results_bydensitykm2.pdf, results_bydensitykm2_SPD.pdf,
+                               results_bypoorpop.pdf, results_bypoorpop_SPD.pdf,
+                               results_bySES.pdf
+
+  File: Figures/figure05_mechanisms.tex
+    Lines 7, 12, 18, 23, 29, 34:
+      results_officers.pdf, results_patrols.pdf,
+      mean_relintensity_carabineros_quantiles.pdf, mean_relintensity_patrols_quantiles.pdf,
+      results_relintensity_officers_quantiles_combined.pdf,
+      results_relintensity_patrols_quantiles_combined.pdf
+
+  File: Figures/figureA2_othermethods.tex
+    Lines 7, 12: results_multiestimators.pdf, results_multiestimators_spd.pdf
+
+  File: Figures/figureA3_otherpreceptions.tex
+    Lines 7, 13: results_perception_municipality.pdf, results_perception_country.pdf
+
+  File: Figures/figureA4_patrolvehicles.tex
+    Lines 7, 13, 19, 24: results_patrols.pdf, mean_relintensity_patrols_quantiles.pdf,
+                          results_relintensity_patrols_quantiles.pdf,
+                          results_intensity_patrols_quantiles_spd.pdf
+
+  File: Figures/figureA5_SC.tex
+    Lines 9, 15, 24, 30, 39: results_victimization_SC.pdf,
+                               totalreportedcrime_allcomunas_SC.pdf,
+                               totalarrestscrime_allcomunas_SC.pdf,
+                               results_perception_SC.pdf,
+                               results_hhprotectionmeasures_SC.pdf
+
+  File: Figures/figureA5_arrestsreported_allcomunas.tex
+    Line 5: totalarrestsreportedcrime.pdf
+
+  File: Figures/figure_predicted_policepresence.tex
+    Lines 8, 13, 18, 23:
+      mean_relintensity_carabineros_quantiles_predicted.pdf,
+      mean_relintensity_patrols_quantiles_predicted.pdf,
+      results_predicted_relintensity_officers_quantiles_combined.pdf,
+      results_predicted_relintensity_patrols_quantiles_combined.pdf
+
+
+=============================================================
+QUICK SUMMARY
+=============================================================
+
+  Rules 1-3 are pure text replacements (no files need to be added).
+  In every affected .tex file, change:
+    Parts/Figures/   ->  Figures/
+    00_draft/02_figures/  (in \input lines)   ->  Figures/
+    Parts/Graphs/    ->  Graphs/
+
+  Rule 4 requires BOTH a text replacement AND adding the missing PDFs to Graphs/:
+    00_draft/02_figures/  (in \includegraphics lines)  ->  Graphs/
+  The PDFs listed under Rule 4 do not currently exist in manuscript/Graphs/
+  and need to be generated by the analysis code and placed there.
+
+=============================================================
+END OF DOCUMENT
+=============================================================

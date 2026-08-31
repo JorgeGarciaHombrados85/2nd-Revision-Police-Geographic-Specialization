@@ -1,0 +1,26 @@
+\begin{table}[h!]
+\caption{Effects of \emph{Plan Cuadrante} on Reported Crime and Arrests: Full Sample and ENUSC Municipalities}
+\label{tab:SPD_all_vs_enusc}
+\begin{center}
+\resizebox{12cm}{!}{
+\begin{tabular}{lccccccccccccccccccccccccccccccccccccccc} \hline \hline
+& & (1) & (2) & (3) & (4) \\
+Outcome & & \multicolumn{2}{c}{Reported crime} & \multicolumn{2}{c}{Arrests} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+& & \shortstack{Sample\\Admin} & \shortstack{Sample\\ENUSC} & \shortstack{Sample\\Admin} & \shortstack{Sample\\ENUSC} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+\\
+ATT & & -208.02*** & -428.09*** & 48.02*** & 44.09 \\
+& & (56.13) & (108.48) & (16.27) & (34.85) \\
+\\
+N & & 4,231 & 592 & 3,293 & 405 \\
+Municipalities & & 292 & 47 & 281 & 40 \\
+Y mean & & 2,109.64 & 2,294.96 & 345.65 & 419.61 \\
+\hline \hline
+\end{tabular}}
+\par{
+\begin{tabular}{p{12cm}}
+\footnotesize{Note: This table shows the effects of \emph{Plan Cuadrante} on the number of crimes reported to the police in the municipality per 100,000 inhabitants and on the number of arrests in the municipality per 100,000 inhabitants using administrative data from the Undersecretary for Crime Prevention. The table reports the results for two samples: the full sample of municipalities included in the administrative database that is used for the analysis of these outcomes and the subsample of these municipalities included in the analysis of ENUSC outcomes. The estimation is conducted using the procedure developed in \citet{Callaway} for difference-in-differences with staggered treatment adoption. Standard errors are clustered at the municipality level using the wild bootstrapping procedure. ***p$<$0.01, **p$<$0.05, *p$<$0.1.} \\
+\end{tabular}}
+\end{center}
+\end{table}
