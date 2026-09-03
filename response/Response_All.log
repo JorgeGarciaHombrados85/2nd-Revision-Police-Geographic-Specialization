@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.2)  3 SEP 2026 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.2)  3 SEP 2026 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-(Parts/r2_04.tex
+[7] (Parts/r2_04.tex
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
 .
 
@@ -1357,8 +1357,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (C:\Users\JG.5054521\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[7])
+))
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -1368,13 +1367,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-(Parts/r2_06.tex)
+[8{C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
+it.enc}] (Parts/r2_06.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[8{C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
-it.enc}] (Parts/r2_07.tex) (bu3.bbl) (bu3.aux)
+(Parts/r2_07.tex) (bu3.bbl) (bu3.aux)
 No file bu.aux.
 )
 
@@ -1396,7 +1395,7 @@ Here is how much of TeX's memory you used:
  52843 multiletter control sequences out of 15000+600000
  589537 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,6n,120p,1504b,1197s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,6n,120p,1529b,1197s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
 10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
 /lmbx12.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1405,9 +1404,9 @@ ic/lm/lmmi10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1
 ype1/public/lm/lmri10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmss10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Response_All.pdf (9 pages, 192416 bytes).
+Output written on Response_All.pdf (9 pages, 193024 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
