@@ -14,4 +14,12 @@ Callaway, B. and P.~H. Sant’Anna (2021).
 \newblock Difference-in-differences with multiple time periods.
 \newblock {\em Journal of Econometrics\/}~{\em 225\/}(2), 200--230.
 
+\bibitem[\protect\citeauthoryear{Cr{\'e}pon, Duflo, Gurgand, Rathelot, and
+  Zamora}{Cr{\'e}pon et~al.}{2013}]{crepon2013}
+Cr{\'e}pon, B., E.~Duflo, M.~Gurgand, R.~Rathelot, and P.~Zamora (2013).
+\newblock {Do labor market policies have displacement effects? Evidence from a
+  clustered randomized experiment}.
+\newblock {\em {The Quarterly Journal of Economics}\/}~{\em 128\/}(2),
+  531--580.
+
 \end{thebibliography}
