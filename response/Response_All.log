@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.2)  3 SEP 2026 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.2)  3 SEP 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1290,8 +1290,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-(Parts/r1_01.tex) [3] (Parts/r1_02.tex) (Parts/r1_03.tex) (Parts/r1_04.tex)
-(Parts/r1_05.tex [4]) (bu2.aux)
+(Parts/r1_01.tex [3]) (Parts/r1_02.tex) (Parts/r1_03.tex) (Parts/r1_04.tex
+[4]) (Parts/r1_05.tex) (bu2.aux)
 \openout4 = `bu2.aux'.
 
  (bu2.bbl
@@ -1318,12 +1318,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-(Parts/r2_03.tex)
+(Parts/r2_03.tex [7])
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-(Parts/r2_04.tex [7]
+(Parts/r2_04.tex
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
 .
 
@@ -1362,13 +1362,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-(Parts/r2_05.tex)
+[8{C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
+it.enc}] (Parts/r2_05.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-(Parts/r2_06.tex [8{C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/lm/lm-mathit.enc}])
+(Parts/r2_06.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
@@ -1389,13 +1389,13 @@ Package rerunfilecheck Info: File `Response_All.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31175 strings out of 474486
- 636374 string characters out of 5741395
- 1935542 words of memory out of 5000000
- 52843 multiletter control sequences out of 15000+600000
+ 31179 strings out of 474486
+ 636435 string characters out of 5741395
+ 1936542 words of memory out of 5000000
+ 52846 multiletter control sequences out of 15000+600000
  589537 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,6n,120p,1592b,1197s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,6n,120p,1618b,1178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
 10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
 /lmbx12.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1404,9 +1404,9 @@ ic/lm/lmmi10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fonts/type1
 ype1/public/lm/lmri10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmss10.pfb><C:/Users/JG.5054521/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Response_All.pdf (9 pages, 193612 bytes).
+Output written on Response_All.pdf (9 pages, 198502 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
