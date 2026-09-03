@@ -11,6 +11,9 @@
 *.blg
 *.synctex.gz
 *.synctex(busy)
+*.nav
+*.snm
+*.vrb
 
 # Compiled PDF output
 *.pdf
@@ -21,6 +24,10 @@
 
 # ...and the editor/referee correspondence PDFs are received documents, not build artifacts: keep them
 !correspondence/*.pdf
+
+# ...and the compiled Beamer deck plus its source figures are the deliverable, not build artifacts: keep them
+!presentation/*.pdf
+!presentation/figures/*.pdf
 
 # macOS junk
 .DS_Store
