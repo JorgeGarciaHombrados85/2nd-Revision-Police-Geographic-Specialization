@@ -1,3 +1,12 @@
 %I also noticed that some estimates based on the administrative data have changed between the two versions. In particular, the estimated reduction in reported crime is now 10 percent rather than 14 percent. I could not find this change documented in the response. As long as the authors can provide a reasonable explanation for what changed between rounds and are confident that the current result is robust, I do not view this as a major concern.
 
 
+Thanks for pointing this out, and apologies for not documenting this change explicitly in our previous response.
+
+The change in the headline number---from a 14\% to a 10\% decline in reported crime---does not come from a change in the underlying treatment effect: the $\beta$ coefficient from the Callaway and Sant'Anna estimator is essentially unchanged between rounds. It comes instead from a change in how we compute $\hat{Y}$, the baseline level we use as the denominator to convert that level effect into a percentage change. In the previous version, $\hat{Y}$ was computed by pooling the pre-treatment mean among treated municipalities with the mean among never-treated municipalities. Since the Callaway and Sant'Anna estimator is essentially a treatment-on-the-treated (ToT) parameter, we now believe it is more appropriate to compute $\hat{Y}$ using only the pre-treatment observations of treated municipalities. This revision affects the administrative-data-based estimates much more than the ENUSC-based ones, because the administrative sample includes 196 never-treated municipalities, whereas the ENUSC sample includes only one; pooling into $\hat{Y}$ therefore moved the administrative baseline by much more than the ENUSC one. We apologize again for not flagging this change explicitly in our earlier response. To avoid this ambiguity going forward, we now define $\hat{Y}$ explicitly in the notes of every figure that reports it.
+
+A second, unrelated and more minor change may also explain small differences in some $\beta$ coefficients across rounds, though not in the result you highlight. Between the first and second submission we realized that our implementation of the Callaway and Sant'Anna estimator was not weighting estimates by cohort size, while the standard implementation does. We corrected this, which slightly changes some point estimates but not in a way that is economically or statistically meaningful.
+
+
+
+
