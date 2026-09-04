@@ -1,7 +1,19 @@
 %Minor point: in Panel D in Table B3, the sample size falls substantially when the officer control is added. Why?
 
-Thanks for the opportunity to clarify this point. 
+Thank you for pointing this out. This is due to an inconsistency in how the resource-years sample was defined in Panel D of the previous version of the paper. Let us start by explaining what we used, and how that explains the larger drop in the sample size in Panel D.
 
-DANI: Yo pensaria que esto se debe unicamente a que el numero de años de datos disponibles es diferente en oficiales y en coches, pero si esto fuera asi, deberiamos observar el mismo patron consistentemente en todos los paneles, y eso no es lo que pasa. Puedes revisarlo por favor?
+Unlike the outcomes in Panels A--C, the outcome in Panel D is based on administrative records of reported crime, which are available for a longer period (2002--2016) than the ENUSC survey data used in Panels A--C. These administrative records also cover never-treated municipalities, which allows the Callaway and Sant'Anna estimator to use the full period. This is not possible with the ENUSC-based panels, which are limited to 2003--2012 (excluding 2004, for which no ENUSC survey was conducted): with one exception, every municipality in the ENUSC estimation sample is already treated by 2012, so there are no valid comparison units left after that year, and post-2012 survey waves cannot contribute to identification regardless of resource-data availability.
+
+Turning to the specifics of Panel D in Table B3 as it appeared in the previous version of the paper: column (1) reports the main estimate using the full 2002--2016 period. Column (2), which includes no resource control, uses 2006--2016. Column (3) is restricted to 2006--2012 once the officer control is added, since officer data are only available for that window. The four years that are lost, 2013--2016, account for 1,045 of the 1,052 municipality-year observations that disappear between columns (2) and (3); the remaining 7 correspond to the single municipality for which the number of officers is not reported. The same logic explains why column (4) is smaller than column (2) in Panel D but larger in the other panels: column (4) keeps 2005, since patrol-vehicle data are available from 2005 to 2012, but it also loses 2013--2016, and in the ENUSC panels there is nothing after 2012 to lose.
+
+In Panels A--C, outcomes are measured at the household level, and the estimation period is 2003--2012 in column (1), 2006--2012 in columns (2) and (3), and 2005--2012 in column (4). In each case, the estimation window is limited by the availability of the resource variable entering that column.
+
+One important inconsistency in the previous version of the paper is that the resource-years sample was not defined consistently across panels. In Panels A--C, it corresponds to the years for which both resource data (officers and patrol vehicles) are available, 2006--2012. In Panel D, however, it was defined as starting in 2006, the first year for which both officers and patrol vehicles are available, but running to the last year of the administrative panel, 2016, even though no resource data are available after 2012. We have corrected this inconsistency in the revised version of the paper by defining the resource-years sample as 2006--2012 uniformly across all panels.
+
+Table \ref{tab:results_controlbyresources} below reproduces the table exactly as it appeared in the previous version of the paper:
+
+\input{../manuscript/Tables/table_controlbyresources_csdid}
+
+%TODO: insert corrected table here once re-estimated. Only column (2) of Panel D changes: restricting to 2006--2012 (dropping 2013--2016) leaves N approx 1,918 municipality-years, but the ATT and standard error must be re-estimated with the Callaway and Sant'Anna estimator on the corrected sample -- do not fabricate these numbers. Columns (1), (3), (4) and (5) are unaffected, since they were already restricted to their own resource-availability window. Also update the table note to state the years used in each column.
 
 
