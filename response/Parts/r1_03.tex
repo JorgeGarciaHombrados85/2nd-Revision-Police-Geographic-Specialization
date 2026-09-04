@@ -10,10 +10,15 @@ In Panels A--C, outcomes are measured at the household level, and the estimation
 
 One important inconsistency in the previous version of the paper is that the resource-years sample was not defined consistently across panels. In Panels A--C, it corresponds to the years for which both resource data (officers and patrol vehicles) are available, 2006--2012. In Panel D, however, it was defined as starting in 2006, the first year for which both officers and patrol vehicles are available, but running to the last year of the administrative panel, 2016, even though no resource data are available after 2012. We have corrected this inconsistency in the revised version of the paper by defining the resource-years sample as 2006--2012 uniformly across all panels.
 
-Table \ref{tab:results_controlbyresources} below reproduces the table exactly as it appeared in the previous version of the paper:
+Table \ref{tab:results_controlbyresources} below reports the corrected table, as it now appears in the revised version of the paper, with the resource-years sample defined as 2006--2012 in every panel:
 
 \input{../manuscript/Tables/table_controlbyresources_csdid}
 
-%TODO: insert corrected table here once re-estimated. Only column (2) of Panel D changes: restricting to 2006--2012 (dropping 2013--2016) leaves N approx 1,918 municipality-years, but the ATT and standard error must be re-estimated with the Callaway and Sant'Anna estimator on the corrected sample -- do not fabricate these numbers. Columns (1), (3), (4) and (5) are unaffected, since they were already restricted to their own resource-availability window. Also update the table note to state the years used in each column.
+For comparison, Table \ref{tab:results_controlbyresources_c2unbounded} reproduces the table exactly as it appeared in the previous version of the paper, where column (2) of Panel D was not bounded above and therefore ran to 2016:
+
+\input{../manuscript/Tables/table_controlbyresources_csdid_c2unbounded}
+
+Only Panel D of column (2) differs between the two tables. Restricting that column to 2006--2012 reduces the estimation sample from 2,963 to 1,918 municipality-year observations and changes the estimated ATT from $-157.010$ (standard error 56.224) to $-190.446$ (standard error 67.908). The estimate remains negative and statistically significant at the 1\% level, and is closer to the baseline estimate in column (1). Every other cell in the table is unchanged, since columns (1), (3), (4) and (5) were already restricted to their own data-availability window.
+
 
 
