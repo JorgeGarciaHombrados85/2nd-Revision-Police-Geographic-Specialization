@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  4 SEP 2026 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  5 SEP 2026 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,49 +1187,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-(./Parts/r1_01.tex [3]) (./Parts/r1_02.tex) (./Parts/r1_03.tex [4]
-(../manuscript/Tables/table_controlbyresources_csdid.tex
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-5.
+(./Parts/r1_01.tex [3] (./bu2.aux)
+\openout4 = `bu2.aux'.
+
+
+
+Package natbib Warning: Citation `DIPRES2014' on page 4 undefined on input line
+ 22.
+
+(../manuscript/Figures/figure_quadrantsize.tex
+<../manuscript/Graphs/quadrantsize_crime.pdf, id=29, 542.025pt x 325.215pt>
+File: ../manuscript/Graphs/quadrantsize_crime.pdf Graphic file (type pdf)
+<use ../manuscript/Graphs/quadrantsize_crime.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/quadrantsize_crime.pdf  used on i
+nput line 5.
+(pdftex.def)             Requested size: 352.31625pt x 211.39717pt.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-35.
+9.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-35.
+9.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 35.
+(Font)              <10.95> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
-
+(Font)              <6> on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./bu2.aux)
-\openout4 = `bu2.aux'.
+))) [4]
+(./Parts/r1_02.tex [5 <../manuscript/Graphs/quadrantsize_crime.pdf>]
+
+Package natbib Warning: Citation `Callaway' on page 6 undefined on input line 1
+5.
 
 
+Package natbib Warning: Citation `Callaway' on page 6 undefined on input line 1
+8.
 
-Package natbib Warning: Citation `Callaway' on page 5 undefined on input line 3
+) (./Parts/r1_03.tex [6]
+(../manuscript/Tables/table_controlbyresources_csdid.tex
+
+Package natbib Warning: Citation `Callaway' on page 7 undefined on input line 3
 5.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1241,21 +1260,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (../manuscript/Tables/table_controlbyresources_csdid_c2unbounded.tex
 
-Package natbib Warning: Citation `Callaway' on page 5 undefined on input line 3
+Package natbib Warning: Citation `Callaway' on page 7 undefined on input line 3
 5.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)) (./Parts/r1_04.tex) [5{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathsy.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm
-/lm-mathit.enc}] (./Parts/r1_05.tex) (./bu2.bbl
+)) [7{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}
+{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+(./Parts/r1_04.tex [8]) [9] (./Parts/r1_05.tex) (./bu2.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu2.aux)
 No file bu.aux.
-) [6] [7] (./Parts/R2.tex
+) [10] (./Parts/R2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
@@ -1268,22 +1287,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[8] (./Parts/r2_02.tex) [9]
+[11] (./Parts/r2_02.tex (../manuscript/Figures/Permutations Analysis.tex
+<../manuscript/Graphs/CHDH_RI_placebo_crime_treatedonly.pdf, id=99, 542.025pt x
+ 361.35pt>
+File: ../manuscript/Graphs/CHDH_RI_placebo_crime_treatedonly.pdf Graphic file (
+type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_crime_treatedonly.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_crime_treatedonly
+.pdf  used on input line 7.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+<../manuscript/Graphs/CHDH_RI_placebo_arrests_treatedonly.pdf, id=100, 542.025p
+t x 361.35pt>
+File: ../manuscript/Graphs/CHDH_RI_placebo_arrests_treatedonly.pdf Graphic file
+ (type pdf)
+<use ../manuscript/Graphs/CHDH_RI_placebo_arrests_treatedonly.pdf>
+Package pdftex.def Info: ../manuscript/Graphs/CHDH_RI_placebo_arrests_treatedon
+ly.pdf  used on input line 14.
+(pdftex.def)             Requested size: 232.52643pt x 155.01907pt.
+
+
+Package natbib Warning: Citation `Chaisemartin' on page 12 undefined on input l
+ine 20.
+
+[12]))
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-(./Parts/r2_03.tex)
+(./Parts/r2_03.tex) [13 <../manuscript/Graphs/CHDH_RI_placebo_crime_treatedonly
+.pdf> <../manuscript/Graphs/CHDH_RI_placebo_arrests_treatedonly.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-(./Parts/r2_04.tex [10])
+(./Parts/r2_04.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-(./Parts/r2_05.tex)
+(./Parts/r2_05.tex) [14]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -1293,17 +1335,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-(./Parts/r2_07.tex) [11] (./bu3.bbl) (./bu3.aux)
+(./Parts/r2_07.tex) (./bu3.bbl) (./bu3.aux)
 No file bu.aux.
 )
 
 Package natbib Warning: There were undefined citations.
 
-
-Package caption Warning: Unused \captionsetup[sub] on input line 43.
-See the caption package documentation for explanation.
-
-[12] (./Response_All.aux)
+[15] (./Response_All.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1312,13 +1350,13 @@ Package rerunfilecheck Info: File `Response_All.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31286 strings out of 469006
- 630312 string characters out of 5454814
- 1001263 words of memory out of 5000000
- 59351 multiletter control sequences out of 15000+600000
+ 31348 strings out of 469006
+ 632841 string characters out of 5454814
+ 1003263 words of memory out of 5000000
+ 59401 multiletter control sequences out of 15000+600000
  674364 words of font info for 77 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 108i,13n,120p,2253b,1204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,13n,120p,2310b,1251s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></u
 sr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
 cal/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/te
@@ -1333,10 +1371,10 @@ ublic/lm/lmssbx10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm
 /lmsy6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msam10.pfb>
-Output written on Response_All.pdf (12 pages, 283889 bytes).
+Output written on Response_All.pdf (15 pages, 329611 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
